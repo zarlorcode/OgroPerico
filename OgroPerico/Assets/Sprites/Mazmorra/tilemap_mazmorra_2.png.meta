@@ -1,0 +1,3679 @@
+fileFormatVersion: 2
+guid: f1544d1183e417e4ca365eeb0bb2d55f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6382859803788986145
+    second: tilemap_mazmorra_2_0
+  - first:
+      213: -715100602694346208
+    second: tilemap_mazmorra_2_1
+  - first:
+      213: -7751706674558054874
+    second: tilemap_mazmorra_2_2
+  - first:
+      213: 130580550907837732
+    second: tilemap_mazmorra_2_3
+  - first:
+      213: -8651197724603289956
+    second: tilemap_mazmorra_2_4
+  - first:
+      213: -4962045770178976557
+    second: tilemap_mazmorra_2_5
+  - first:
+      213: 1832908497745486570
+    second: tilemap_mazmorra_2_6
+  - first:
+      213: -4832084413706553509
+    second: tilemap_mazmorra_2_7
+  - first:
+      213: -6564453356846243355
+    second: tilemap_mazmorra_2_8
+  - first:
+      213: 6809485447076018118
+    second: tilemap_mazmorra_2_9
+  - first:
+      213: 799622342198465099
+    second: tilemap_mazmorra_2_10
+  - first:
+      213: 175149482081527947
+    second: tilemap_mazmorra_2_11
+  - first:
+      213: 6486772222199010764
+    second: tilemap_mazmorra_2_12
+  - first:
+      213: -3983688580572851868
+    second: tilemap_mazmorra_2_13
+  - first:
+      213: 7219062901399427339
+    second: tilemap_mazmorra_2_14
+  - first:
+      213: -1823233723403593163
+    second: tilemap_mazmorra_2_15
+  - first:
+      213: -2265797553338948208
+    second: tilemap_mazmorra_2_16
+  - first:
+      213: -9174933804403364992
+    second: tilemap_mazmorra_2_17
+  - first:
+      213: 5141981544569244780
+    second: tilemap_mazmorra_2_18
+  - first:
+      213: -233689851737604988
+    second: tilemap_mazmorra_2_19
+  - first:
+      213: 1100136847717808704
+    second: tilemap_mazmorra_2_20
+  - first:
+      213: 7035533283027848345
+    second: tilemap_mazmorra_2_21
+  - first:
+      213: -5732674982244268522
+    second: tilemap_mazmorra_2_22
+  - first:
+      213: -5281128666217552630
+    second: tilemap_mazmorra_2_23
+  - first:
+      213: -2200020275003336604
+    second: tilemap_mazmorra_2_24
+  - first:
+      213: 4850967630706262411
+    second: tilemap_mazmorra_2_25
+  - first:
+      213: 2999467415316259740
+    second: tilemap_mazmorra_2_26
+  - first:
+      213: 8614423140311186730
+    second: tilemap_mazmorra_2_27
+  - first:
+      213: 3005287887407333814
+    second: tilemap_mazmorra_2_28
+  - first:
+      213: -8876784768730123081
+    second: tilemap_mazmorra_2_29
+  - first:
+      213: -9070488404760849332
+    second: tilemap_mazmorra_2_30
+  - first:
+      213: -1441884919119818068
+    second: tilemap_mazmorra_2_31
+  - first:
+      213: -8883256250798804455
+    second: tilemap_mazmorra_2_32
+  - first:
+      213: -1593815556671040585
+    second: tilemap_mazmorra_2_33
+  - first:
+      213: 7963792430737441333
+    second: tilemap_mazmorra_2_34
+  - first:
+      213: 8974898684470449572
+    second: tilemap_mazmorra_2_35
+  - first:
+      213: -7647955141165096335
+    second: tilemap_mazmorra_2_36
+  - first:
+      213: -7030786243156167117
+    second: tilemap_mazmorra_2_37
+  - first:
+      213: -5335809144892979242
+    second: tilemap_mazmorra_2_38
+  - first:
+      213: 3556837648946317575
+    second: tilemap_mazmorra_2_39
+  - first:
+      213: 3329553543810125036
+    second: tilemap_mazmorra_2_40
+  - first:
+      213: 8899547820293644097
+    second: tilemap_mazmorra_2_41
+  - first:
+      213: 5857249820980577136
+    second: tilemap_mazmorra_2_42
+  - first:
+      213: -3272339362130371624
+    second: tilemap_mazmorra_2_43
+  - first:
+      213: -2334801610249779090
+    second: tilemap_mazmorra_2_44
+  - first:
+      213: -1941594244144595685
+    second: tilemap_mazmorra_2_45
+  - first:
+      213: -8752195133152942605
+    second: tilemap_mazmorra_2_46
+  - first:
+      213: 8066025392023660066
+    second: tilemap_mazmorra_2_47
+  - first:
+      213: -2835024820484411984
+    second: tilemap_mazmorra_2_48
+  - first:
+      213: 630214755290475982
+    second: tilemap_mazmorra_2_49
+  - first:
+      213: -2634205303527087096
+    second: tilemap_mazmorra_2_50
+  - first:
+      213: 7060682376707922009
+    second: tilemap_mazmorra_2_51
+  - first:
+      213: -6071618393643340385
+    second: tilemap_mazmorra_2_52
+  - first:
+      213: -1552912835817020899
+    second: tilemap_mazmorra_2_53
+  - first:
+      213: -90712249946873662
+    second: tilemap_mazmorra_2_54
+  - first:
+      213: -4025385575726533512
+    second: tilemap_mazmorra_2_55
+  - first:
+      213: -6363729588771941884
+    second: tilemap_mazmorra_2_56
+  - first:
+      213: 2356037574271701466
+    second: tilemap_mazmorra_2_57
+  - first:
+      213: 1324466702681672380
+    second: tilemap_mazmorra_2_58
+  - first:
+      213: -6638335805124409562
+    second: tilemap_mazmorra_2_59
+  - first:
+      213: -3684927482699376761
+    second: tilemap_mazmorra_2_60
+  - first:
+      213: 8778292490744590256
+    second: tilemap_mazmorra_2_61
+  - first:
+      213: -9021886302926006483
+    second: tilemap_mazmorra_2_62
+  - first:
+      213: 4427321459226095284
+    second: tilemap_mazmorra_2_63
+  - first:
+      213: 1765444553955141130
+    second: tilemap_mazmorra_2_64
+  - first:
+      213: 2566936820196293532
+    second: tilemap_mazmorra_2_65
+  - first:
+      213: -5622812744860046134
+    second: tilemap_mazmorra_2_66
+  - first:
+      213: -2248882994631025662
+    second: tilemap_mazmorra_2_67
+  - first:
+      213: -6593675268631757463
+    second: tilemap_mazmorra_2_68
+  - first:
+      213: -3201035106016412963
+    second: tilemap_mazmorra_2_69
+  - first:
+      213: -2689074159081224903
+    second: tilemap_mazmorra_2_70
+  - first:
+      213: 7473361338061544804
+    second: tilemap_mazmorra_2_71
+  - first:
+      213: 1251387586616356218
+    second: tilemap_mazmorra_2_72
+  - first:
+      213: -7291794196159047884
+    second: tilemap_mazmorra_2_73
+  - first:
+      213: 8792843886883098289
+    second: tilemap_mazmorra_2_74
+  - first:
+      213: -1988091849922842335
+    second: tilemap_mazmorra_2_75
+  - first:
+      213: -9068431853110924933
+    second: tilemap_mazmorra_2_76
+  - first:
+      213: 7820601081439021377
+    second: tilemap_mazmorra_2_77
+  - first:
+      213: -6350610095866215383
+    second: tilemap_mazmorra_2_78
+  - first:
+      213: 7668812760294644401
+    second: tilemap_mazmorra_2_79
+  - first:
+      213: -4896964098983839062
+    second: tilemap_mazmorra_2_80
+  - first:
+      213: -3311677216787835424
+    second: tilemap_mazmorra_2_81
+  - first:
+      213: 265626709302254498
+    second: tilemap_mazmorra_2_82
+  - first:
+      213: -1533538243204466141
+    second: tilemap_mazmorra_2_83
+  - first:
+      213: 2275906638239719228
+    second: tilemap_mazmorra_2_84
+  - first:
+      213: -4414452573284200698
+    second: tilemap_mazmorra_2_85
+  - first:
+      213: -4532768871084968805
+    second: tilemap_mazmorra_2_86
+  - first:
+      213: 4665836451801500589
+    second: tilemap_mazmorra_2_87
+  - first:
+      213: -478953711316166373
+    second: tilemap_mazmorra_2_88
+  - first:
+      213: -545688788727102391
+    second: tilemap_mazmorra_2_89
+  - first:
+      213: -1949172048235788942
+    second: tilemap_mazmorra_2_90
+  - first:
+      213: -1737742101200921001
+    second: tilemap_mazmorra_2_91
+  - first:
+      213: 7233840945531656644
+    second: tilemap_mazmorra_2_92
+  - first:
+      213: -934358541642008391
+    second: tilemap_mazmorra_2_93
+  - first:
+      213: -5347922973873834899
+    second: tilemap_mazmorra_2_94
+  - first:
+      213: 9108025204218985437
+    second: tilemap_mazmorra_2_95
+  - first:
+      213: -6476754171871779274
+    second: tilemap_mazmorra_2_96
+  - first:
+      213: -2319019146057854279
+    second: tilemap_mazmorra_2_97
+  - first:
+      213: 575452740832047885
+    second: tilemap_mazmorra_2_98
+  - first:
+      213: 2140978305629762399
+    second: tilemap_mazmorra_2_99
+  - first:
+      213: 8104842364006655435
+    second: tilemap_mazmorra_2_100
+  - first:
+      213: 7761963343624929274
+    second: tilemap_mazmorra_2_101
+  - first:
+      213: -3403701293704773559
+    second: tilemap_mazmorra_2_102
+  - first:
+      213: -5941225046811132889
+    second: tilemap_mazmorra_2_103
+  - first:
+      213: 6751769306828533823
+    second: tilemap_mazmorra_2_104
+  - first:
+      213: 5279116003921757266
+    second: tilemap_mazmorra_2_105
+  - first:
+      213: -5859937711651353705
+    second: tilemap_mazmorra_2_106
+  - first:
+      213: -5720815065229444483
+    second: tilemap_mazmorra_2_107
+  - first:
+      213: 6974284905096938915
+    second: tilemap_mazmorra_2_108
+  - first:
+      213: 8348923029694471870
+    second: tilemap_mazmorra_2_109
+  - first:
+      213: 1265759432036281348
+    second: tilemap_mazmorra_2_110
+  - first:
+      213: -5639571979815624027
+    second: tilemap_mazmorra_2_111
+  - first:
+      213: 2939352991279080458
+    second: tilemap_mazmorra_2_112
+  - first:
+      213: -258082450341644556
+    second: tilemap_mazmorra_2_113
+  - first:
+      213: 8211742425072799810
+    second: tilemap_mazmorra_2_114
+  - first:
+      213: -3189721818942457557
+    second: tilemap_mazmorra_2_115
+  - first:
+      213: -1640695909050378996
+    second: tilemap_mazmorra_2_116
+  - first:
+      213: -4619531286380283210
+    second: tilemap_mazmorra_2_117
+  - first:
+      213: 6925341915466077012
+    second: tilemap_mazmorra_2_118
+  - first:
+      213: 2015273643401677020
+    second: tilemap_mazmorra_2_119
+  - first:
+      213: 6873945511242216742
+    second: tilemap_mazmorra_2_120
+  - first:
+      213: 965347927544451495
+    second: tilemap_mazmorra_2_121
+  - first:
+      213: 795965152261520975
+    second: tilemap_mazmorra_2_122
+  - first:
+      213: 5274976244790982310
+    second: tilemap_mazmorra_2_123
+  - first:
+      213: 8774734620366207279
+    second: tilemap_mazmorra_2_124
+  - first:
+      213: 991841073085148272
+    second: tilemap_mazmorra_2_125
+  - first:
+      213: 5528640968714058347
+    second: tilemap_mazmorra_2_126
+  - first:
+      213: 8515985939936172312
+    second: tilemap_mazmorra_2_127
+  - first:
+      213: 7794853680437635907
+    second: tilemap_mazmorra_2_128
+  - first:
+      213: 6241520284468937956
+    second: tilemap_mazmorra_2_129
+  - first:
+      213: 37501981066797840
+    second: tilemap_mazmorra_2_130
+  - first:
+      213: 2494551861505510255
+    second: tilemap_mazmorra_2_131
+  - first:
+      213: 7587507954245911763
+    second: tilemap_mazmorra_2_132
+  - first:
+      213: -5978265238847753022
+    second: tilemap_mazmorra_2_133
+  - first:
+      213: -1841955814065554687
+    second: tilemap_mazmorra_2_134
+  - first:
+      213: 4736979260826571984
+    second: tilemap_mazmorra_2_135
+  - first:
+      213: -7127963277350981745
+    second: tilemap_mazmorra_2_136
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8b90883d68b67a0800000000000000
+      internalID: -6382859803788986145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a5cb56ac37316f0800000000000000
+      internalID: -715100602694346208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 169
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e41fb89d76c6490800000000000000
+      internalID: -7751706674558054874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 152
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42dbf67b15aefc100800000000000000
+      internalID: 130580550907837732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 169
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e6a576185c0f780800000000000000
+      internalID: -8651197724603289956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_5
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 152
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4a04d79a5432bb0800000000000000
+      internalID: -4962045770178976557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 169
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae22ae9419ccf6910800000000000000
+      internalID: 1832908497745486570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_7
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 152
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57b154c3dcf0fcb0800000000000000
+      internalID: -4832084413706553509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_8
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 169
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e12f80b37066e4a0800000000000000
+      internalID: -6564453356846243355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_9
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 152
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c778289fe6208e50800000000000000
+      internalID: 6809485447076018118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_10
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 169
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42943d9844d81b00800000000000000
+      internalID: 799622342198465099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_11
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 152
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b882016a6814e6200800000000000000
+      internalID: 175149482081527947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_12
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 169
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc51b0bb7f4a50a50800000000000000
+      internalID: 6486772222199010764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_13
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 152
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461dc2ba75817b8c0800000000000000
+      internalID: -3983688580572851868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_14
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 169
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b091d19e5734f2460800000000000000
+      internalID: 7219062901399427339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_15
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 152
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a1406a69292b6e0800000000000000
+      internalID: -1823233723403593163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 169
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095684441254e80e0800000000000000
+      internalID: -2265797553338948208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_17
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 152
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b60d6d0561ca080800000000000000
+      internalID: -9174933804403364992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_18
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 169
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c0aada8fcfb5740800000000000000
+      internalID: 5141981544569244780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_19
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 152
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48cf0976154c1ccf0800000000000000
+      internalID: -233689851737604988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_20
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 169
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ab98c52a8744f00800000000000000
+      internalID: 1100136847717808704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_21
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 152
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c005cbe3c33a160800000000000000
+      internalID: 7035533283027848345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_22
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616cf860a727170b0800000000000000
+      internalID: -5732674982244268522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_23
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 152
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0568fc6579a5b6b0800000000000000
+      internalID: -5281128666217552630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468d4c15735f771e0800000000000000
+      internalID: -2200020275003336604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 118
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b814a2dcb59125340800000000000000
+      internalID: 4850967630706262411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 135
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93e84de8bf30a920800000000000000
+      internalID: 2999467415316259740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 118
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d372774349c8770800000000000000
+      internalID: 8614423140311186730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_28
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 135
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1c2b0396de4b920800000000000000
+      internalID: 3005287887407333814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_29
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 118
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b43e38b8435fc480800000000000000
+      internalID: -8876784768730123081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_30
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 135
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c441ee67ad62f1280800000000000000
+      internalID: -9070488404760849332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_31
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 118
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2ded43e456dfbe0800000000000000
+      internalID: -1441884919119818068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_32
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 135
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9127e52618558b480800000000000000
+      internalID: -8883256250798804455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_33
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 118
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b391231231a1e9e0800000000000000
+      internalID: -1593815556671040585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_34
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 135
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532cc039503158e60800000000000000
+      internalID: 7963792430737441333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_35
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 118
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a55bfe6dce3d8c70800000000000000
+      internalID: 8974898684470449572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_36
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 135
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1726bb8d1510dd590800000000000000
+      internalID: -7647955141165096335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_37
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 118
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33639fc9921ad6e90800000000000000
+      internalID: -7030786243156167117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_38
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 135
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d78f516ad563f5b0800000000000000
+      internalID: -5335809144892979242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_39
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 118
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7094e2d2ffc6c5130800000000000000
+      internalID: 3556837648946317575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_40
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 135
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec027fae43f43e20800000000000000
+      internalID: 3329553543810125036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_41
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 118
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f543a379b818b70800000000000000
+      internalID: 8899547820293644097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_42
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 135
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073844cdda1294150800000000000000
+      internalID: 5857249820980577136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_43
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 118
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dbd0bf00b05692d0800000000000000
+      internalID: -3272339362130371624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_44
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 135
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e684d084e4e199fd0800000000000000
+      internalID: -2334801610249779090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_45
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 118
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d71db62521e05e0800000000000000
+      internalID: -1941594244144595685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_46
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 135
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f52483c5e4f98680800000000000000
+      internalID: -8752195133152942605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_47
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 118
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226e9d0cb5740ff60800000000000000
+      internalID: 8066025392023660066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd6c9542f7f7a8d0800000000000000
+      internalID: -2835024820484411984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 101
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd6c4d1bf8feb800800000000000000
+      internalID: 630214755290475982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_50
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 101
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80461d9ab3c617bd0800000000000000
+      internalID: -2634205303527087096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_51
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 101
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958598766359cf160800000000000000
+      internalID: 7060682376707922009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_52
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 101
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d29236d374dbba0800000000000000
+      internalID: -6071618393643340385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_53
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 101
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d126bf5e002f27ae0800000000000000
+      internalID: -1552912835817020899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_54
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 103
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0e32570b9bdbef0800000000000000
+      internalID: -90712249946873662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_55
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 101
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874b6d27525f228c0800000000000000
+      internalID: -4025385575726533512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_56
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 101
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4021b9ec7ad7fa7a0800000000000000
+      internalID: -6363729588771941884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_57
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 101
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad110f3e0b352b020800000000000000
+      internalID: 2356037574271701466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_58
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 101
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba8c22e273716210800000000000000
+      internalID: 1324466702681672380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_59
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 101
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6278dc3b1c4efd3a0800000000000000
+      internalID: -6638335805124409562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78711a26af18cdcc0800000000000000
+      internalID: -3684927482699376761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf6f4dc282c2d970800000000000000
+      internalID: 8778292490744590256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_62
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 94
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27122e1532dbc280800000000000000
+      internalID: -9021886302926006483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_63
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bea2a30961017d30800000000000000
+      internalID: 4427321459226095284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_64
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 85
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06e425d77e108810800000000000000
+      internalID: 1765444553955141130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_65
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 86
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9bbba010779f9320800000000000000
+      internalID: 2566936820196293532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_66
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 91
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acce3187991c7f1b0800000000000000
+      internalID: -5622812744860046134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_67
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 84
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cd99bd4dc5ac0e0800000000000000
+      internalID: -2248882994631025662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_68
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96dfce8274f8e74a0800000000000000
+      internalID: -6593675268631757463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_69
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda3658e783a393d0800000000000000
+      internalID: -3201035106016412963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_70
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 84
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9350845bc4d7eaad0800000000000000
+      internalID: -2689074159081224903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_71
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 84
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ddb499a86b6b760800000000000000
+      internalID: 7473361338061544804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_72
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 85
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7de9904162dd5110800000000000000
+      internalID: 1251387586616356218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_73
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 84
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4375faaefc75eca90800000000000000
+      internalID: -7291794196159047884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_74
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 84
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bec12bbde4760a70800000000000000
+      internalID: 8792843886883098289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_75
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 84
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121ff70fef0e864e0800000000000000
+      internalID: -1988091849922842335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b796c75b645762280800000000000000
+      internalID: -9068431853110924933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_77
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 85
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149653d8f3b588c60800000000000000
+      internalID: 7820601081439021377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_78
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 67
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92482e8c3c91ed7a0800000000000000
+      internalID: -6350610095866215383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_79
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 67
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba585a03981d6a60800000000000000
+      internalID: 7668812760294644401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_80
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 67
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa3a32e81d7a0cb0800000000000000
+      internalID: -4896964098983839062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_81
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 67
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e55b9a0e1f8a02d0800000000000000
+      internalID: -3311677216787835424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_82
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 67
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab11d2b512bfa300800000000000000
+      internalID: 265626709302254498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_83
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 67
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a3254c717c7bae0800000000000000
+      internalID: -1533538243204466141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_84
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 69
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f5b3a7705a59f10800000000000000
+      internalID: 2275906638239719228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_85
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 68
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f069bf5c6bcb2c0800000000000000
+      internalID: -4414452573284200698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_86
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9438063abe5811c0800000000000000
+      internalID: -4532768871084968805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_87
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 67
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab82b1488160c040800000000000000
+      internalID: 4665836451801500589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_88
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19152d132a6a59f0800000000000000
+      internalID: -478953711316166373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944020610f25d68f0800000000000000
+      internalID: -545688788727102391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_90
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 50
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27509ca695623f4e0800000000000000
+      internalID: -1949172048235788942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_91
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 50
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e9da214cc42e7e0800000000000000
+      internalID: -1737742101200921001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_92
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 50
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c917107304c36460800000000000000
+      internalID: 7233840945531656644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_93
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 50
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b873985bdd7803f0800000000000000
+      internalID: -934358541642008391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_94
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 50
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d647918c36c58c5b0800000000000000
+      internalID: -5347922973873834899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_95
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 50
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbf6c6baa4366e70800000000000000
+      internalID: 9108025204218985437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_96
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 50
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636ad006562fd16a0800000000000000
+      internalID: -6476754171871779274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_97
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 50
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b254e39f5031dfd0800000000000000
+      internalID: -2319019146057854279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_98
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 33
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03b15a083b6cf700800000000000000
+      internalID: 575452740832047885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_99
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 51
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5331e2fc6846bd10800000000000000
+      internalID: 2140978305629762399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_100
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 33
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc56723503f2a7070800000000000000
+      internalID: 8104842364006655435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_101
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 50
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afffd50598808bb60800000000000000
+      internalID: 7761963343624929274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_102
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 33
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940803bf4bf93c0d0800000000000000
+      internalID: -3403701293704773559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_103
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 51
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c3b224c478c8da0800000000000000
+      internalID: -5941225046811132889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_104
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 33
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3076e2896a13bd50800000000000000
+      internalID: 6751769306828533823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25406dd1900334940800000000000000
+      internalID: 5279116003921757266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_106
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 33
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b0b13d2b15daea0800000000000000
+      internalID: -5859937711651353705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_107
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 33
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7abb4322059b90b0800000000000000
+      internalID: -5720815065229444483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_108
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 33
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a50caa7b23a9c060800000000000000
+      internalID: 6974284905096938915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_109
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 33
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe5402d2455dd370800000000000000
+      internalID: 8348923029694471870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_110
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c6f954f71e09110800000000000000
+      internalID: 1265759432036281348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_111
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2e7d10a273cb1b0800000000000000
+      internalID: -5639571979815624027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_112
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 34
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04eba2e8fdaac820800000000000000
+      internalID: 2939352991279080458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_113
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6bf98f06b1b6cf0800000000000000
+      internalID: -258082450341644556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_114
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24018795a38f5f170800000000000000
+      internalID: 8211742425072799810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_115
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 16
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b293f91d7e4dbb3d0800000000000000
+      internalID: -3189721818942457557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_116
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 16
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c059d9473c31b39e0800000000000000
+      internalID: -1640695909050378996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_117
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 16
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6baff7635c024efb0800000000000000
+      internalID: -4619531286380283210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_118
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 17
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4539a73b7c1cb1060800000000000000
+      internalID: 6925341915466077012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_119
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 17
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd80a2883b0b7fb10800000000000000
+      internalID: 2015273643401677020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_120
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 17
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625bbf2d509256f50800000000000000
+      internalID: 6873945511242216742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_121
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 17
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a152f153da956d00800000000000000
+      internalID: 965347927544451495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_122
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 16
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e332ab616db0b00800000000000000
+      internalID: 795965152261520975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_123
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 16
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6f36552fa743940800000000000000
+      internalID: 5274976244790982310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_124
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 16
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29ff3d85ae16c970800000000000000
+      internalID: 8774734620366207279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ce1e2733ab3cd00800000000000000
+      internalID: 991841073085148272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_126
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a7fd64bada9bc40800000000000000
+      internalID: 5528640968714058347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_127
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819dd1eb71cde2670800000000000000
+      internalID: 8515985939936172312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_128
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ba1aa9f12ec2c60800000000000000
+      internalID: 7794853680437635907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_129
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e48a2631a55e9650800000000000000
+      internalID: 6241520284468937956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_130
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0132cd36adb358000800000000000000
+      internalID: 37501981066797840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_131
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b43da83bd6e9220800000000000000
+      internalID: 2494551861505510255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_132
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d44747b84e3c4960800000000000000
+      internalID: 7587507954245911763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_133
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4f961807fe80da0800000000000000
+      internalID: -5978265238847753022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_134
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b38aa32fe0076e0800000000000000
+      internalID: -1841955814065554687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_135
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 0
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4d5f54a812db140800000000000000
+      internalID: 4736979260826571984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap_mazmorra_2_136
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f27713a23641d90800000000000000
+      internalID: -7127963277350981745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tilemap_mazmorra_2_0: -6382859803788986145
+      tilemap_mazmorra_2_1: -715100602694346208
+      tilemap_mazmorra_2_10: 799622342198465099
+      tilemap_mazmorra_2_100: 8104842364006655435
+      tilemap_mazmorra_2_101: 7761963343624929274
+      tilemap_mazmorra_2_102: -3403701293704773559
+      tilemap_mazmorra_2_103: -5941225046811132889
+      tilemap_mazmorra_2_104: 6751769306828533823
+      tilemap_mazmorra_2_105: 5279116003921757266
+      tilemap_mazmorra_2_106: -5859937711651353705
+      tilemap_mazmorra_2_107: -5720815065229444483
+      tilemap_mazmorra_2_108: 6974284905096938915
+      tilemap_mazmorra_2_109: 8348923029694471870
+      tilemap_mazmorra_2_11: 175149482081527947
+      tilemap_mazmorra_2_110: 1265759432036281348
+      tilemap_mazmorra_2_111: -5639571979815624027
+      tilemap_mazmorra_2_112: 2939352991279080458
+      tilemap_mazmorra_2_113: -258082450341644556
+      tilemap_mazmorra_2_114: 8211742425072799810
+      tilemap_mazmorra_2_115: -3189721818942457557
+      tilemap_mazmorra_2_116: -1640695909050378996
+      tilemap_mazmorra_2_117: -4619531286380283210
+      tilemap_mazmorra_2_118: 6925341915466077012
+      tilemap_mazmorra_2_119: 2015273643401677020
+      tilemap_mazmorra_2_12: 6486772222199010764
+      tilemap_mazmorra_2_120: 6873945511242216742
+      tilemap_mazmorra_2_121: 965347927544451495
+      tilemap_mazmorra_2_122: 795965152261520975
+      tilemap_mazmorra_2_123: 5274976244790982310
+      tilemap_mazmorra_2_124: 8774734620366207279
+      tilemap_mazmorra_2_125: 991841073085148272
+      tilemap_mazmorra_2_126: 5528640968714058347
+      tilemap_mazmorra_2_127: 8515985939936172312
+      tilemap_mazmorra_2_128: 7794853680437635907
+      tilemap_mazmorra_2_129: 6241520284468937956
+      tilemap_mazmorra_2_13: -3983688580572851868
+      tilemap_mazmorra_2_130: 37501981066797840
+      tilemap_mazmorra_2_131: 2494551861505510255
+      tilemap_mazmorra_2_132: 7587507954245911763
+      tilemap_mazmorra_2_133: -5978265238847753022
+      tilemap_mazmorra_2_134: -1841955814065554687
+      tilemap_mazmorra_2_135: 4736979260826571984
+      tilemap_mazmorra_2_136: -7127963277350981745
+      tilemap_mazmorra_2_14: 7219062901399427339
+      tilemap_mazmorra_2_15: -1823233723403593163
+      tilemap_mazmorra_2_16: -2265797553338948208
+      tilemap_mazmorra_2_17: -9174933804403364992
+      tilemap_mazmorra_2_18: 5141981544569244780
+      tilemap_mazmorra_2_19: -233689851737604988
+      tilemap_mazmorra_2_2: -7751706674558054874
+      tilemap_mazmorra_2_20: 1100136847717808704
+      tilemap_mazmorra_2_21: 7035533283027848345
+      tilemap_mazmorra_2_22: -5732674982244268522
+      tilemap_mazmorra_2_23: -5281128666217552630
+      tilemap_mazmorra_2_24: -2200020275003336604
+      tilemap_mazmorra_2_25: 4850967630706262411
+      tilemap_mazmorra_2_26: 2999467415316259740
+      tilemap_mazmorra_2_27: 8614423140311186730
+      tilemap_mazmorra_2_28: 3005287887407333814
+      tilemap_mazmorra_2_29: -8876784768730123081
+      tilemap_mazmorra_2_3: 130580550907837732
+      tilemap_mazmorra_2_30: -9070488404760849332
+      tilemap_mazmorra_2_31: -1441884919119818068
+      tilemap_mazmorra_2_32: -8883256250798804455
+      tilemap_mazmorra_2_33: -1593815556671040585
+      tilemap_mazmorra_2_34: 7963792430737441333
+      tilemap_mazmorra_2_35: 8974898684470449572
+      tilemap_mazmorra_2_36: -7647955141165096335
+      tilemap_mazmorra_2_37: -7030786243156167117
+      tilemap_mazmorra_2_38: -5335809144892979242
+      tilemap_mazmorra_2_39: 3556837648946317575
+      tilemap_mazmorra_2_4: -8651197724603289956
+      tilemap_mazmorra_2_40: 3329553543810125036
+      tilemap_mazmorra_2_41: 8899547820293644097
+      tilemap_mazmorra_2_42: 5857249820980577136
+      tilemap_mazmorra_2_43: -3272339362130371624
+      tilemap_mazmorra_2_44: -2334801610249779090
+      tilemap_mazmorra_2_45: -1941594244144595685
+      tilemap_mazmorra_2_46: -8752195133152942605
+      tilemap_mazmorra_2_47: 8066025392023660066
+      tilemap_mazmorra_2_48: -2835024820484411984
+      tilemap_mazmorra_2_49: 630214755290475982
+      tilemap_mazmorra_2_5: -4962045770178976557
+      tilemap_mazmorra_2_50: -2634205303527087096
+      tilemap_mazmorra_2_51: 7060682376707922009
+      tilemap_mazmorra_2_52: -6071618393643340385
+      tilemap_mazmorra_2_53: -1552912835817020899
+      tilemap_mazmorra_2_54: -90712249946873662
+      tilemap_mazmorra_2_55: -4025385575726533512
+      tilemap_mazmorra_2_56: -6363729588771941884
+      tilemap_mazmorra_2_57: 2356037574271701466
+      tilemap_mazmorra_2_58: 1324466702681672380
+      tilemap_mazmorra_2_59: -6638335805124409562
+      tilemap_mazmorra_2_6: 1832908497745486570
+      tilemap_mazmorra_2_60: -3684927482699376761
+      tilemap_mazmorra_2_61: 8778292490744590256
+      tilemap_mazmorra_2_62: -9021886302926006483
+      tilemap_mazmorra_2_63: 4427321459226095284
+      tilemap_mazmorra_2_64: 1765444553955141130
+      tilemap_mazmorra_2_65: 2566936820196293532
+      tilemap_mazmorra_2_66: -5622812744860046134
+      tilemap_mazmorra_2_67: -2248882994631025662
+      tilemap_mazmorra_2_68: -6593675268631757463
+      tilemap_mazmorra_2_69: -3201035106016412963
+      tilemap_mazmorra_2_7: -4832084413706553509
+      tilemap_mazmorra_2_70: -2689074159081224903
+      tilemap_mazmorra_2_71: 7473361338061544804
+      tilemap_mazmorra_2_72: 1251387586616356218
+      tilemap_mazmorra_2_73: -7291794196159047884
+      tilemap_mazmorra_2_74: 8792843886883098289
+      tilemap_mazmorra_2_75: -1988091849922842335
+      tilemap_mazmorra_2_76: -9068431853110924933
+      tilemap_mazmorra_2_77: 7820601081439021377
+      tilemap_mazmorra_2_78: -6350610095866215383
+      tilemap_mazmorra_2_79: 7668812760294644401
+      tilemap_mazmorra_2_8: -6564453356846243355
+      tilemap_mazmorra_2_80: -4896964098983839062
+      tilemap_mazmorra_2_81: -3311677216787835424
+      tilemap_mazmorra_2_82: 265626709302254498
+      tilemap_mazmorra_2_83: -1533538243204466141
+      tilemap_mazmorra_2_84: 2275906638239719228
+      tilemap_mazmorra_2_85: -4414452573284200698
+      tilemap_mazmorra_2_86: -4532768871084968805
+      tilemap_mazmorra_2_87: 4665836451801500589
+      tilemap_mazmorra_2_88: -478953711316166373
+      tilemap_mazmorra_2_89: -545688788727102391
+      tilemap_mazmorra_2_9: 6809485447076018118
+      tilemap_mazmorra_2_90: -1949172048235788942
+      tilemap_mazmorra_2_91: -1737742101200921001
+      tilemap_mazmorra_2_92: 7233840945531656644
+      tilemap_mazmorra_2_93: -934358541642008391
+      tilemap_mazmorra_2_94: -5347922973873834899
+      tilemap_mazmorra_2_95: 9108025204218985437
+      tilemap_mazmorra_2_96: -6476754171871779274
+      tilemap_mazmorra_2_97: -2319019146057854279
+      tilemap_mazmorra_2_98: 575452740832047885
+      tilemap_mazmorra_2_99: 2140978305629762399
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
