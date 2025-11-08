@@ -22,6 +22,7 @@ public class HealthUI : MonoBehaviour
         for (int i = 0; i < hearts.Length; i++)
         {
             int heartHealth = Mathf.Clamp(health - (i * 2), 0, 2);
+            Debug.Log("hearthHealth " + i + ": " + heartHealth);
             if (heartHealth == 2)
                 hearts[i].sprite = fullHeart;
             else if (heartHealth == 1)
