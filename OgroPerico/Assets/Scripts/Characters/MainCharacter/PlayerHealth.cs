@@ -11,6 +11,7 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         health = maxHearts * 2;
+        Debug.Log("health: " + health);
 
         // notify anyone who is subscribed
         OnHealthChanged ?.Invoke();
