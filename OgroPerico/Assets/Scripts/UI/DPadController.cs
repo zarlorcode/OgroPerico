@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class DPadManager : MonoBehaviour
+public class DPadController : MonoBehaviour
 {
-    private PlayerMovement player;
+    public PlayerMovement player;
 
     private bool upPressed, downPressed, leftPressed, rightPressed;
 

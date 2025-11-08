@@ -14,11 +14,13 @@ public class DPadButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 
     public void OnPointerDown(PointerEventData eventData)
     {
+        Debug.Log("Button pressed: " + direction);
         manager.SetPressed(direction, true);
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
+        Debug.Log("Button released: " + direction);
         manager.SetPressed(direction, false);
     }
 }
