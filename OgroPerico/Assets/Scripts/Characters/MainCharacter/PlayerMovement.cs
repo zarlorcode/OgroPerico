@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 inputDirection;
     private Animator animator;
     private bool facingRight = true;
+    private bool joystickActive = false;
 
     void Start()
     {
@@ -16,11 +17,13 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        // by default, PC keyboard
-        inputDirection.x = Input.GetAxisRaw("Horizontal");
-        inputDirection.y = Input.GetAxisRaw("Vertical");
-
-        inputDirection = inputDirection.normalized;
+        // only if joystick is not working
+        if (!joystickActive)
+        {
+            inputDirection.x = Input.GetAxisRaw("Horizontal");
+            inputDirection.y = Input.GetAxisRaw("Vertical");
+            inputDirection = inputDirection.normalized;
+        }
 
         animator.SetFloat("MoveX", inputDirection.x);
         animator.SetFloat("MoveY", inputDirection.y);
@@ -45,6 +48,7 @@ public class PlayerMovement : MonoBehaviour
     public void SetInputDirection(Vector2 direction)
     {
         inputDirection = direction;
+        joystickActive = direction != Vector2.zero;
     }
 
     void Flip()
