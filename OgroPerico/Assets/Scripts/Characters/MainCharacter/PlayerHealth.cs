@@ -1,5 +1,6 @@
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -40,5 +41,6 @@ public class PlayerHealth : MonoBehaviour
     {
         Debug.Log("Player died");
         // Show game over or reset the scene
+        SceneManager.LoadScene("GameOver");
     }
 }
