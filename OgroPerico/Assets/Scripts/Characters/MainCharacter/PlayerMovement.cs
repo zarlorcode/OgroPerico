@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -8,6 +9,9 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     private bool facingRight = true;
     private bool joystickActive = false;
+
+    private Vector2 knockbackVelocity = Vector2.zero;
+    private float knockbackTimer = 0f;
 
     void Start()
     {
@@ -41,7 +45,17 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.MovePosition(rb.position + inputDirection * moveSpeed * Time.fixedDeltaTime);
+        Vector2 finalMovement = inputDirection * moveSpeed;
+
+        // Aplica knockback si hay
+        if (knockbackTimer > 0f)
+        {
+            finalMovement = knockbackVelocity;
+            knockbackTimer -= Time.fixedDeltaTime;
+        }
+
+
+        rb.MovePosition(rb.position + finalMovement * Time.fixedDeltaTime);
     }
 
     // This method is for applying mobile joystick or something like that
@@ -57,5 +71,12 @@ public class PlayerMovement : MonoBehaviour
         Vector3 scale = transform.localScale;
         scale.x *= -1;
         transform.localScale = scale;
+    }
+
+    public void ApplyKnockback(Vector2 direction)
+    {
+        knockbackTimer = 0.2f;
+        float elapsed = 0f;
+        knockbackVelocity = direction.normalized * 7f;
     }
 }

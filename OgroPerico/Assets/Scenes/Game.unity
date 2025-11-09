@@ -3382,12 +3382,28 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3887494945456004098, guid: 94623d9c732c0f643b866a324eb0069f, type: 3}
+      propertyPath: m_Size.x
+      value: 0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887494945456004098, guid: 94623d9c732c0f643b866a324eb0069f, type: 3}
+      propertyPath: m_Size.y
+      value: 0.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887494945456004098, guid: 94623d9c732c0f643b866a324eb0069f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7103749574173715010, guid: 6250141ef844ea74db02966e773d9720, type: 3}
+    - target: {fileID: 3887494945456004098, guid: 94623d9c732c0f643b866a324eb0069f, type: 3}
       propertyPath: m_SortingLayer
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3887494945456004098, guid: 94623d9c732c0f643b866a324eb0069f, type: 3}
       propertyPath: m_SortingLayerID
       value: 25054613
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887494945456004098, guid: 94623d9c732c0f643b866a324eb0069f, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5607364270466958062, guid: 94623d9c732c0f643b866a324eb0069f, type: 3}
       propertyPath: m_Constraints
@@ -3805,6 +3821,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHearts: 5
   health: 0
+  invulnerabilityTime: 1.5
 --- !u!114 &1562476159 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4214571006942228051, guid: 94623d9c732c0f643b866a324eb0069f, type: 3}

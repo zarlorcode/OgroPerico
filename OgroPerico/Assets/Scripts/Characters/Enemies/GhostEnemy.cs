@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
 public class GhostEnemy : MonoBehaviour
@@ -6,14 +7,14 @@ public class GhostEnemy : MonoBehaviour
     [Header("Movimiento")]
     public float moveSpeed = 3f;           // Velocidad del fantasma
     public float chaseRange = 5f;          // Distancia para empezar a perseguir
-    public float stopDistance = 0.5f;      // Distancia mínima al jugador
+    public float stopDistance = 0.5f;      // Distancia minima al jugador
 
     [Header("Ataque")]
-    public int damageToPlayer = 2;         // Daño que causa al jugador
+    public int damageToPlayer = 2;         // Dano que causa al jugador
     public float damageCooldown = 1f;      // Tiempo entre ataques
 
     [Header("Vida del Enemigo")]
-    public int maxHealth = 6;              // Vida máxima del enemigo
+    public int maxHealth = 6;              // Vida maxima del enemigo
     private int currentHealth;             // Vida actual
 
     [Header("Referencias")]
@@ -26,6 +27,8 @@ public class GhostEnemy : MonoBehaviour
     private float lastDamageTime;
     private bool isDead = false;
 
+    private bool stunned = false;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -33,7 +36,7 @@ public class GhostEnemy : MonoBehaviour
 
         currentHealth = maxHealth;
 
-        // Si no está asignado manualmente, lo busca por tag
+        // Si no esta asignado manualmente, lo busca por tag
         if (player == null)
             player = GameObject.FindGameObjectWithTag("Player")?.transform;
 
@@ -68,7 +71,7 @@ public class GhostEnemy : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!isDead && movement != Vector2.zero)
+        if (!isDead && movement != Vector2.zero && !stunned)
         {
             rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
         }
@@ -83,13 +86,14 @@ public class GhostEnemy : MonoBehaviour
         {
             if (Time.time >= lastDamageTime + damageCooldown)
             {
-                playerHealth.TakeDamage(damageToPlayer);
+                playerHealth.TakeDamage(damageToPlayer, transform.position);
                 lastDamageTime = Time.time;
+                Stun(0.5f);
             }
         }
     }
 
-    // ?? NUEVO MÉTODO: recibe daño
+    // ?? NEW METHOD: receive damage
     public void TakeDamage(int amount)
     {
         if (isDead) return;
@@ -105,7 +109,7 @@ public class GhostEnemy : MonoBehaviour
         }
     }
 
-    // ?? NUEVO MÉTODO: morir
+    // ?? NEW METHOD: Die
     private void Die()
     {
         if (isDead) return;
@@ -113,7 +117,7 @@ public class GhostEnemy : MonoBehaviour
 
         Debug.Log("Ghost died!");
 
-        // Si tienes animación de muerte:
+        // Si tienes animaciï¿½n de muerte:
         animator?.SetTrigger("Die");
 
         // Desactivar colisiones para que no siga golpeando al jugador
@@ -121,14 +125,28 @@ public class GhostEnemy : MonoBehaviour
         if (col != null)
             col.enabled = false;
 
-        // Destruir el enemigo después de un pequeño retraso (para permitir animación)
+        // Destruir el enemigo despues de un pequeno retraso (para permitir animacion)
         Destroy(gameObject, 0.5f);
     }
 
-    // Visualización del rango de persecución en el editor
+    // Visualizacion del rango de persecucion en el editor
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, chaseRange);
+    }
+
+    public void Stun(float duration)
+    {
+        if (!stunned)
+            StartCoroutine(ApplyStun(duration));
+    }
+
+    private IEnumerator ApplyStun(float duration)
+    {
+        stunned = true;              
+        rb.linearVelocity = Vector2.zero; 
+        yield return new WaitForSeconds(duration);
+        stunned = false;         
     }
 }
