@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using TMPro.Examples;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
 public class GhostEnemy : MonoBehaviour
@@ -28,6 +29,9 @@ public class GhostEnemy : MonoBehaviour
     private bool isDead = false;
 
     private bool stunned = false;
+
+    private Vector2 knockbackVelocity = Vector2.zero;
+    private float knockbackTimer = 0f;
 
     void Start()
     {
@@ -71,6 +75,17 @@ public class GhostEnemy : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (knockbackTimer > 0f)
+        {
+            movement = knockbackVelocity;
+            knockbackTimer -= Time.fixedDeltaTime;
+            if (knockbackTimer <= 0f)
+            {
+                knockbackTimer = 0f;
+                Stun(0.3f);
+            }
+
+        }
         if (!isDead && movement != Vector2.zero && !stunned)
         {
             rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
@@ -94,9 +109,14 @@ public class GhostEnemy : MonoBehaviour
     }
 
     // ?? NEW METHOD: receive damage
-    public void TakeDamage(int amount)
+    public void TakeDamage(int amount, Vector2 hitSourcePosition)
     {
+        Debug.Log("Recibed damage");
         if (isDead) return;
+
+        Vector2 hitDirection = CalculateHitDirection(hitSourcePosition);
+
+        ApplyKnockback(hitDirection);
 
         currentHealth -= amount;
         currentHealth = Mathf.Max(currentHealth, 0);
@@ -148,5 +168,16 @@ public class GhostEnemy : MonoBehaviour
         rb.linearVelocity = Vector2.zero; 
         yield return new WaitForSeconds(duration);
         stunned = false;         
+    }
+
+    private Vector2 CalculateHitDirection(Vector2 sourcePos)
+    {
+        return ((Vector2)transform.position - sourcePos).normalized;
+    }
+
+    public void ApplyKnockback(Vector2 direction)
+    {
+        knockbackTimer = 0.2f;
+        knockbackVelocity = direction.normalized * 2f;
     }
 }

@@ -76,7 +76,6 @@ public class PlayerMovement : MonoBehaviour
     public void ApplyKnockback(Vector2 direction)
     {
         knockbackTimer = 0.2f;
-        float elapsed = 0f;
         knockbackVelocity = direction.normalized * 7f;
     }
 }
