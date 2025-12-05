@@ -66,6 +66,10 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("Player died");
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.reproducirMusicaGameOver();
+        }
         // Show game over or reset the scene
         SceneManager.LoadScene("GameOver");
     }

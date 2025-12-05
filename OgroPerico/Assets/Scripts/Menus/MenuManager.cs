@@ -6,12 +6,11 @@ using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    private AudioManager audioManager;
+ 
 
     void Start()
     {
-        // Unity 6 API
-        audioManager = FindFirstObjectByType<AudioManager>();
+       
     }
 
 
@@ -22,10 +21,11 @@ public class MenuManager : MonoBehaviour
     }
     public void startMenuClicked() 
     {
-        if (audioManager != null)
+        if (AudioManager.Instance != null)
         {
-            audioManager.StopMusic();
+            AudioManager.Instance.reproducirMusicaJuego();
         }
+
         SceneManager.LoadScene("Game");
     }
     public void optionsClicked()
@@ -38,8 +38,18 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene("Credits");
     }
 
-    public void menuClicked()
+    public void menuClickedFromMenu()
     {
+       
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void backToMenuClicked()
+    {
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.reproducirMusicaInicio();
+        }
         SceneManager.LoadScene("MainMenu");
     }
 }

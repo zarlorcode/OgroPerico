@@ -9,15 +9,16 @@ public class SplashTimer : MonoBehaviour
     const float waitTime = 5.0f;
     float startTime;
     public AudioClip splashMusic;
-    private AudioManager audioManager;
+ 
     void Start()
     {
         startTime = Time.time;
+        // Reproducir música de inicio
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.reproducirMusicaInicio();
+        }
 
-        audioManager = FindFirstObjectByType<AudioManager>();
-
-        if (audioManager != null)
-            audioManager.PlayMusic(splashMusic);
     }
 
     // Update is called once per frame
