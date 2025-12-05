@@ -8,9 +8,16 @@ public class SplashTimer : MonoBehaviour
     // Start is called before the first frame update
     const float waitTime = 5.0f;
     float startTime;
+    public AudioClip splashMusic;
+    private AudioManager audioManager;
     void Start()
     {
         startTime = Time.time;
+
+        audioManager = FindFirstObjectByType<AudioManager>();
+
+        if (audioManager != null)
+            audioManager.PlayMusic(splashMusic);
     }
 
     // Update is called once per frame
