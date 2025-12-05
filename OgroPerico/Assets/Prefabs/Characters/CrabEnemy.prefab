@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4792270461815563194}
   m_Layer: 0
   m_Name: CrabEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -179,10 +179,11 @@ MonoBehaviour:
   moveSpeed: 5
   chaseRange: 4
   stopDistance: 0.5
-  wanderRadius: 5
   wanderSpeed: 1.5
+  wanderInterval: 2
   maxHealth: 6
   player: {fileID: 0}
+  movementArea: {fileID: 0}
   damageToPlayer: 2
   damageCooldown: 1
   chargeSpeedMultiplier: 2

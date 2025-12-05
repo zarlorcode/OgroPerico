@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1233279948778245653}
   m_Layer: 0
   m_Name: GhostEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -179,12 +179,16 @@ MonoBehaviour:
   moveSpeed: 3
   chaseRange: 5
   stopDistance: 0.5
-  wanderRadius: 5
   wanderSpeed: 1.5
+  wanderInterval: 2
   maxHealth: 6
   player: {fileID: 0}
+  movementArea: {fileID: 0}
   damageToPlayer: 2
   damageCooldown: 1
+  chargeSpeedMultiplier: 3
+  knockbackBackDistance: 0.5
+  knockbackDuration: 0.2
 --- !u!95 &1233279948778245653
 Animator:
   serializedVersion: 7

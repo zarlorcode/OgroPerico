@@ -199,6 +199,7 @@ public abstract class EnemyBase : MonoBehaviour
     public virtual void TakeDamage(int amount, Vector2 hitSourcePosition)
     {
         if (isDead) return;
+        Debug.Log("Enemy received damage");
 
         Vector2 dir = ((Vector2)transform.position - hitSourcePosition).normalized;
         ApplyKnockback(dir);

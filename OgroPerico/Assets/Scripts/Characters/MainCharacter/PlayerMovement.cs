@@ -3,6 +3,10 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("Input")]
+    public JoystickController joystickController;
+
+    [Header("Movement")]
     public float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 inputDirection;
@@ -10,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     private bool facingRight = true;
     private bool joystickActive = false;
 
+    [Header("Knockback")]
     private Vector2 knockbackVelocity = Vector2.zero;
     private float knockbackTimer = 0f;
 
@@ -21,13 +26,23 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        // only if joystick is not working
-        if (!joystickActive)
+        if (joystickController != null && joystickController.InputDirection != Vector2.zero)
+        {
+            SetInputDirection(joystickController.InputDirection);
+        } else
         {
             inputDirection.x = Input.GetAxisRaw("Horizontal");
             inputDirection.y = Input.GetAxisRaw("Vertical");
             inputDirection = inputDirection.normalized;
         }
+
+        // only if joystick is not working
+        /*if (!joystickActive)
+        {
+            inputDirection.x = Input.GetAxisRaw("Horizontal");
+            inputDirection.y = Input.GetAxisRaw("Vertical");
+            inputDirection = inputDirection.normalized;
+        }*/
 
         animator.SetFloat("MoveX", inputDirection.x);
         animator.SetFloat("MoveY", inputDirection.y);
