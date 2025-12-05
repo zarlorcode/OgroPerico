@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
 public abstract class EnemyBase : MonoBehaviour
@@ -10,10 +11,11 @@ public abstract class EnemyBase : MonoBehaviour
     public float stopDistance = 0.5f;
 
     [Header("Movimiento Aleatorio")]
-    public float wanderRadius = 3f;
     public float wanderSpeed = 1.5f;
+    public float wanderInterval = 2f;
+
     protected Vector2 wanderTarget;
-    protected Vector2 startPosition;
+    protected float nextWanderTime = 0f;
 
     [Header("Vida")]
     public int maxHealth = 6;
@@ -21,6 +23,9 @@ public abstract class EnemyBase : MonoBehaviour
 
     [Header("Referencias")]
     public Transform player;
+
+    // Área donde el enemigo puede moverse
+    public BoxCollider2D movementArea;
 
     protected Rigidbody2D rb;
     protected Animator animator;
@@ -35,17 +40,24 @@ public abstract class EnemyBase : MonoBehaviour
     protected enum EnemyState { Wandering, Chasing, Attacking }
     protected EnemyState currentState;
 
+    public event Action OnDeath;
+
     protected virtual void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
         currentHealth = maxHealth;
-        startPosition = rb.position;
-        ChooseNewWanderTarget();
 
         if (player == null)
             player = GameObject.FindGameObjectWithTag("Player")?.transform;
+
+        // Si el spawner asigna el área, perfecto.
+        // Si no, intenta tomarla del padre.
+        if (movementArea == null)
+            movementArea = GetComponentInParent<BoxCollider2D>();
+
+        ChooseNewWanderTarget();
     }
 
     protected virtual void Update()
@@ -62,15 +74,16 @@ public abstract class EnemyBase : MonoBehaviour
 
         if (!isDead && !stunned)
         {
-            float currentSpeed = (currentState == EnemyState.Wandering) ? wanderSpeed :
-                                 (currentState == EnemyState.Attacking) ? 0f :
-                                 moveSpeed;
+            float currentSpeed =
+                (currentState == EnemyState.Wandering) ? wanderSpeed :
+                (currentState == EnemyState.Attacking) ? 0f :
+                moveSpeed;
 
-            rb.MovePosition(rb.position + movement.normalized * currentSpeed * Time.fixedDeltaTime);
+            MoveInsideArea(movement.normalized * currentSpeed);
         }
     }
 
-    // ===================== Estados =====================
+    // ===================== ESTADOS =====================
     protected virtual void HandleState()
     {
         float distance = Vector2.Distance(player.position, rb.position);
@@ -78,46 +91,82 @@ public abstract class EnemyBase : MonoBehaviour
         if (distance <= chaseRange && distance > stopDistance)
         {
             currentState = EnemyState.Chasing;
-            movement = ((Vector2)player.position - (Vector2)rb.position).normalized;
-            animator?.SetBool("IsMoving", true);
+            movement = ((Vector2)player.position - rb.position).normalized;
         }
         else if (distance <= stopDistance)
         {
             currentState = EnemyState.Attacking;
             movement = Vector2.zero;
-            animator?.SetBool("IsMoving", false);
         }
         else
         {
             currentState = EnemyState.Wandering;
-            movement = ((wanderTarget - (Vector2)rb.position).normalized) * (wanderSpeed / moveSpeed);
-            animator?.SetBool("IsMoving", true);
-
-            if (Vector2.Distance(rb.position, wanderTarget) < 0.1f)
-                ChooseNewWanderTarget();
+            HandleWandering();
         }
     }
 
+    // ===================== WANDER DENTRO DEL ÁREA =====================
+    protected void HandleWandering()
+    {
+        if (Time.time >= nextWanderTime)
+        {
+            ChooseNewWanderTarget();
+            nextWanderTime = Time.time + wanderInterval;
+        }
+
+        movement = (wanderTarget - rb.position).normalized;
+
+        if (Vector2.Distance(rb.position, wanderTarget) < 0.2f)
+            ChooseNewWanderTarget();
+    }
+
+    protected void ChooseNewWanderTarget()
+    {
+        if (movementArea == null)
+        {
+            wanderTarget = rb.position;
+            return;
+        }
+
+        Bounds b = movementArea.bounds;
+
+        float x = UnityEngine.Random.Range(b.min.x + 0.5f, b.max.x - 0.5f);
+        float y = UnityEngine.Random.Range(b.min.y + 0.5f, b.max.y - 0.5f);
+
+        wanderTarget = new Vector2(x, y);
+    }
+
+    // ===================== MOVIMIENTO LIMITADO AL ÁREA =====================
+    protected void MoveInsideArea(Vector2 velocity)
+    {
+        Vector2 newPos = rb.position + velocity * Time.fixedDeltaTime;
+
+        if (movementArea != null)
+        {
+            Bounds b = movementArea.bounds;
+
+            newPos.x = Mathf.Clamp(newPos.x, b.min.x + 0.3f, b.max.x - 0.3f);
+            newPos.y = Mathf.Clamp(newPos.y, b.min.y + 0.3f, b.max.y - 0.3f);
+        }
+
+        rb.MovePosition(newPos);
+    }
+
+    // ===================== FLIP =====================
     protected void HandleSpriteFlip()
     {
         if (movement.x > 0) transform.localScale = new Vector3(1, 1, 1);
         else if (movement.x < 0) transform.localScale = new Vector3(-1, 1, 1);
     }
 
-    // ===================== Movimiento aleatorio =====================
-    protected void ChooseNewWanderTarget()
-    {
-        Vector2 randomOffset = Random.insideUnitCircle * wanderRadius;
-        wanderTarget = startPosition + randomOffset;
-    }
-
-    // ===================== Knockback / Stun =====================
+    // ===================== KNOCKBACK =====================
     protected void HandleKnockback()
     {
         if (knockbackTimer > 0f)
         {
             movement = knockbackVelocity;
             knockbackTimer -= Time.fixedDeltaTime;
+
             if (knockbackTimer <= 0f)
             {
                 knockbackTimer = 0f;
@@ -146,17 +195,15 @@ public abstract class EnemyBase : MonoBehaviour
         stunned = false;
     }
 
-    // ===================== Vida =====================
+    // ===================== VIDA =====================
     public virtual void TakeDamage(int amount, Vector2 hitSourcePosition)
     {
         if (isDead) return;
 
-        Vector2 hitDirection = ((Vector2)transform.position - hitSourcePosition).normalized;
-        ApplyKnockback(hitDirection);
+        Vector2 dir = ((Vector2)transform.position - hitSourcePosition).normalized;
+        ApplyKnockback(dir);
 
         currentHealth -= amount;
-        currentHealth = Mathf.Max(currentHealth, 0);
-
         if (currentHealth <= 0)
             Die();
     }
@@ -164,20 +211,26 @@ public abstract class EnemyBase : MonoBehaviour
     protected virtual void Die()
     {
         if (isDead) return;
+
         isDead = true;
+        OnDeath?.Invoke();
 
         animator?.SetTrigger("Die");
 
         Collider2D col = GetComponent<Collider2D>();
-        if (col != null) col.enabled = false;
+        if (col) col.enabled = false;
 
         Destroy(gameObject, 0.5f);
     }
 
     protected void OnDrawGizmosSelected()
     {
+        if (movementArea == null) return;
+
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireCube(movementArea.bounds.center, movementArea.bounds.size);
+
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, chaseRange);
     }
 }
-

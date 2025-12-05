@@ -1,7 +1,7 @@
-using System.Collections;
 using UnityEngine;
+using System.Collections;
 
-public class GhostEnemy : EnemyBase
+public class CrabEnemy : EnemyBase
 {
     [Header("Ataque")]
     public int damageToPlayer = 2;
