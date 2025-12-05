@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GhostEnemy : EnemyBase
@@ -10,7 +11,7 @@ public class GhostEnemy : EnemyBase
     [Header("Ataque Especial")]
     public float chargeSpeedMultiplier = 3f;   // Cuánto más rápido ataca
     public float knockbackBackDistance = 0.5f;   // Distancia que retrocede
-    public float knockbackDuration = 0.2f;     // Tiempo del retroceso
+    
 
     private float lastDamageTime;
     private PlayerHealth playerHealth;
@@ -65,4 +66,5 @@ public class GhostEnemy : EnemyBase
             moveSpeed = originalSpeed;
         }
     }
+
 }

@@ -21,8 +21,13 @@ public abstract class EnemyBase : MonoBehaviour
     public int maxHealth = 6;
     protected int currentHealth;
 
+    [Header("blink")]
+    [SerializeField] private float blinkTime = 1.5f;
+
+
     [Header("Referencias")]
     public Transform player;
+    private SpriteRenderer spriteRenderer;
 
     // Área donde el enemigo puede moverse
     public BoxCollider2D movementArea;
@@ -34,8 +39,11 @@ public abstract class EnemyBase : MonoBehaviour
     protected bool stunned = false;
 
     protected Vector2 movement;
+
+    [Header("Knockback")]
     protected Vector2 knockbackVelocity = Vector2.zero;
-    protected float knockbackTimer = 0f;
+    protected float knockbackTimer = 0f;    // time of knoback remaining
+    public float knockbackDuration = 0.3f;     // knoback time
 
     protected enum EnemyState { Wandering, Chasing, Attacking }
     protected EnemyState currentState;
@@ -46,6 +54,7 @@ public abstract class EnemyBase : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
 
         currentHealth = maxHealth;
 
@@ -207,6 +216,24 @@ public abstract class EnemyBase : MonoBehaviour
         currentHealth -= amount;
         if (currentHealth <= 0)
             Die();
+
+        // ACtivate invulnerability
+        StartCoroutine(blink());
+    }
+
+    private IEnumerator blink()
+    {
+
+        float elapsed = 0f;
+        while (elapsed < knockbackDuration)
+        {
+            // blink
+            spriteRenderer.enabled = !spriteRenderer.enabled;
+            yield return new WaitForSeconds(0.1f);
+            elapsed += 0.1f;
+        }
+
+        spriteRenderer.enabled = true;
     }
 
     protected virtual void Die()

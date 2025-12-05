@@ -10,7 +10,6 @@ public class CrabEnemy : EnemyBase
     [Header("Ataque Especial")]
     public float chargeSpeedMultiplier = 3f;   // Cuánto más rápido ataca
     public float knockbackBackDistance = 0.5f;   // Distancia que retrocede
-    public float knockbackDuration = 0.2f;     // Tiempo del retroceso
 
     private float lastDamageTime;
     private PlayerHealth playerHealth;

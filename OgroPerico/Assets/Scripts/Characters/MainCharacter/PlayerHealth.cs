@@ -52,7 +52,7 @@ public class PlayerHealth : MonoBehaviour
         // Apply recoil
         playerMovement.ApplyKnockback(hitDirection);
 
-        // ACtivate invulnerability
+        // Activate invulnerability
         StartCoroutine(Invulnerability());
     }
 

@@ -16,13 +16,11 @@ public class WeaponController : MonoBehaviour
     public void EnableHitbox()
     {
         hitbox.enabled = true;
-        Debug.Log("enableHitbox");
     }
 
     public void DisableHitbox()
     {
         hitbox.enabled = false;
-        Debug.Log("disableHitbox");
     }
 
     public void Attack()

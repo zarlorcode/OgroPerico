@@ -6,19 +6,13 @@ public class WeaponHitbox : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("trigger with enemy");
         if (collision.CompareTag("Enemy"))
         {
-            Debug.Log("trigger is enemy");
-            GhostEnemy enemy = collision.GetComponent<GhostEnemy>();
+           EnemyBase enemy = collision.GetComponent<EnemyBase>();
             if (enemy != null)
             {
-                Debug.Log("call takeDamage Enemy");
                 enemy.TakeDamage(damage, transform.position);
             }
-        } else
-        {
-            Debug.Log("trigger not enemy");
         }
     }
 }

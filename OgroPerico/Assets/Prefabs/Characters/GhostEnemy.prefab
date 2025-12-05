@@ -182,13 +182,14 @@ MonoBehaviour:
   wanderSpeed: 1.5
   wanderInterval: 2
   maxHealth: 6
+  blinkTime: 1.5
   player: {fileID: 0}
   movementArea: {fileID: 0}
+  knockbackDuration: 0.3
   damageToPlayer: 2
   damageCooldown: 1
   chargeSpeedMultiplier: 3
   knockbackBackDistance: 0.5
-  knockbackDuration: 0.2
 --- !u!95 &1233279948778245653
 Animator:
   serializedVersion: 7

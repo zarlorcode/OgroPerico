@@ -3033,6 +3033,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WeaponPivot
       objectReference: {fileID: 0}
+    - target: {fileID: 5286354664451519712, guid: 56644fbde55b6f14183e5a841d3d8050, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 6621096714397021285, guid: 56644fbde55b6f14183e5a841d3d8050, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
