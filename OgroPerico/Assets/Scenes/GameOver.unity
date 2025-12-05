@@ -808,8 +808,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -991,6 +991,7 @@ GameObject:
   - component: {fileID: 1557735348}
   - component: {fileID: 1557735350}
   - component: {fileID: 1557735349}
+  - component: {fileID: 1557735351}
   m_Layer: 5
   m_Name: GameOverText
   m_TagString: Untagged
@@ -1046,8 +1047,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280952012
-  m_fontColor: {r: 0.8018868, g: 0.13995194, b: 0.16436821, a: 1}
+    rgba: 4286347746
+  m_fontColor: {r: 0.8867924, g: 0.47267708, b: 0.48746687, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1116,6 +1117,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1557735347}
   m_CullTransparentMesh: 1
+--- !u!95 &1557735351
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557735347}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 220617fbbe9d7f24285b263ea49be3a8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1760037430
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,7 +1192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.31372374, g: 0.450038, b: 0.4716981, a: 0.76862746}
+  m_Color: {r: 0.6792453, g: 0.29156286, b: 0.31632465, a: 0.76862746}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1230,8 +1253,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.8, y: -80.99999}
-  m_SizeDelta: {x: 273.4084, y: 62.5317}
+  m_AnchoredPosition: {x: -3.4307, y: -80.1}
+  m_SizeDelta: {x: 235.36, y: 61.997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1765658197
 MonoBehaviour:
