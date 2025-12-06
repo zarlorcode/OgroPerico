@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11735e01b046f004e88344c4d942a193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 4
   chaseRange: 4
   stopDistance: 0.5
   wanderSpeed: 1.5
@@ -185,7 +185,7 @@ MonoBehaviour:
   blinkTime: 1.5
   player: {fileID: 0}
   movementArea: {fileID: 0}
-  knockbackDuration: 0.3
+  knockbackDuration: 0.5
   damageToPlayer: 2
   damageCooldown: 1
   chargeSpeedMultiplier: 2

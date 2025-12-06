@@ -185,7 +185,7 @@ MonoBehaviour:
   blinkTime: 1.5
   player: {fileID: 0}
   movementArea: {fileID: 0}
-  knockbackDuration: 0.3
+  knockbackDuration: 0.5
   damageToPlayer: 2
   damageCooldown: 1
   chargeSpeedMultiplier: 3
