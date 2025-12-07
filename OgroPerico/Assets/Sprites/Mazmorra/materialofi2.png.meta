@@ -1,0 +1,1398 @@
+fileFormatVersion: 2
+guid: ae03040ac273f8641be4c9f2585e774a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7444676588067897
+    second: materialofi2_0
+  - first:
+      213: 5198822433872835790
+    second: materialofi2_1
+  - first:
+      213: 1660224753986582419
+    second: materialofi2_2
+  - first:
+      213: -3387273112321390576
+    second: materialofi2_3
+  - first:
+      213: 8253253121128946034
+    second: materialofi2_4
+  - first:
+      213: 4168022939362790204
+    second: materialofi2_5
+  - first:
+      213: -6619570749519233561
+    second: materialofi2_6
+  - first:
+      213: 7541221571344997624
+    second: materialofi2_7
+  - first:
+      213: 1151017914898579488
+    second: materialofi2_8
+  - first:
+      213: 8479306790703617699
+    second: materialofi2_9
+  - first:
+      213: -8498068548527511834
+    second: materialofi2_10
+  - first:
+      213: 1365262938984310433
+    second: materialofi2_11
+  - first:
+      213: -6265531686930689567
+    second: materialofi2_12
+  - first:
+      213: -8200761235061177666
+    second: materialofi2_13
+  - first:
+      213: -557896020712203024
+    second: materialofi2_14
+  - first:
+      213: 951684729742581623
+    second: materialofi2_15
+  - first:
+      213: -907596801007798199
+    second: materialofi2_16
+  - first:
+      213: 1019075157057584064
+    second: materialofi2_17
+  - first:
+      213: -7620340145767825481
+    second: materialofi2_18
+  - first:
+      213: 744869019367981802
+    second: materialofi2_19
+  - first:
+      213: 5212129102119792495
+    second: materialofi2_20
+  - first:
+      213: -6092434362927231993
+    second: materialofi2_21
+  - first:
+      213: 9211798473096643887
+    second: materialofi2_22
+  - first:
+      213: -3398162997763991593
+    second: materialofi2_23
+  - first:
+      213: 584921386311413291
+    second: materialofi2_24
+  - first:
+      213: 8934238856997807699
+    second: materialofi2_25
+  - first:
+      213: 5344674999428822083
+    second: materialofi2_26
+  - first:
+      213: -2528535715161004145
+    second: materialofi2_27
+  - first:
+      213: 207544285222624768
+    second: materialofi2_28
+  - first:
+      213: -9189208749580481950
+    second: materialofi2_29
+  - first:
+      213: 604593180558707331
+    second: materialofi2_30
+  - first:
+      213: 2996861651502797128
+    second: materialofi2_31
+  - first:
+      213: 8287819998006612661
+    second: materialofi2_32
+  - first:
+      213: -6902260453097397814
+    second: materialofi2_33
+  - first:
+      213: -135130172276569102
+    second: materialofi2_34
+  - first:
+      213: 6439716323893034639
+    second: materialofi2_35
+  - first:
+      213: -745253668585368653
+    second: materialofi2_36
+  - first:
+      213: -8171794601517133464
+    second: materialofi2_37
+  - first:
+      213: 7001910328376196763
+    second: materialofi2_38
+  - first:
+      213: -7275428414427108698
+    second: materialofi2_39
+  - first:
+      213: 2614918113371773880
+    second: materialofi2_40
+  - first:
+      213: 7011024296978685888
+    second: materialofi2_41
+  - first:
+      213: 4833365060311834448
+    second: materialofi2_42
+  - first:
+      213: 1885629164052657464
+    second: materialofi2_43
+  - first:
+      213: 7471153997577833390
+    second: materialofi2_44
+  - first:
+      213: 7370390103229389942
+    second: materialofi2_45
+  - first:
+      213: 9166812607101411853
+    second: materialofi2_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: materialofi2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 923
+        width: 151
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93cdf77d4e27a1000800000000000000
+      internalID: 7444676588067897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_1
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 934
+        width: 66
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec47255857de52840800000000000000
+      internalID: 5198822433872835790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 731
+        width: 151
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3973ea41e9d4a0710800000000000000
+      internalID: 1660224753986582419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 925
+        width: 64
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0180ad60d0dfdf0d0800000000000000
+      internalID: -3387273112321390576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_4
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 934
+        width: 76
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279564e6cf1798270800000000000000
+      internalID: 8253253121128946034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_5
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 934
+        width: 73
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b066cb7cac7d930800000000000000
+      internalID: 4168022939362790204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 731
+        width: 149
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7edf65da97f8224a0800000000000000
+      internalID: -6619570749519233561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_7
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 771
+        width: 153
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc1884601dc7a860800000000000000
+      internalID: 7541221571344997624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_8
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 773
+        width: 75
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02004abf1bc39ff00800000000000000
+      internalID: 1151017914898579488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_9
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 773
+        width: 71
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a65271d99c8ca570800000000000000
+      internalID: 8479306790703617699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 539
+        width: 151
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e629180eabc01a80800000000000000
+      internalID: -8498068548527511834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_11
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 655
+        width: 66
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a66a27d86362f210800000000000000
+      internalID: 1365262938984310433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_12
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 655
+        width: 71
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1da8f702c5c09a0800000000000000
+      internalID: -6265531686930689567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_13
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 655
+        width: 61
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb282603b1b013e80800000000000000
+      internalID: -8200761235061177666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_14
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 656
+        width: 69
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc58d76684f148f0800000000000000
+      internalID: -557896020712203024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 151
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f587e2830153d00800000000000000
+      internalID: 951684729742581623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_16
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 539
+        width: 85
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94836a4a4819763f0800000000000000
+      internalID: -907596801007798199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_17
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 539
+        width: 73
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbb7dfb47b742e00800000000000000
+      internalID: 1019075157057584064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_18
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 525
+        width: 64
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf3cdff20d1f3690800000000000000
+      internalID: -7620340145767825481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_19
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 540
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae24f973d6e465a00800000000000000
+      internalID: 744869019367981802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_20
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 539
+        width: 63
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f6357adc3355840800000000000000
+      internalID: 5212129102119792495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_21
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 416
+        width: 152
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70cc65cd933537ba0800000000000000
+      internalID: -6092434362927231993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_22
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 422
+        width: 68
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f254963b7e1e6df70800000000000000
+      internalID: 9211798473096643887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_23
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 422
+        width: 58
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7966df1cc47d0d0800000000000000
+      internalID: -3398162997763991593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_24
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 422
+        width: 68
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2eee9cd6ee0e1800800000000000000
+      internalID: 584921386311413291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_25
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 422
+        width: 54
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356a8d1a7eaccfb70800000000000000
+      internalID: 8934238856997807699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 151
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344bddc38991c2a40800000000000000
+      internalID: 5344674999428822083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_27
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 244
+        width: 152
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87a0ffe926d8ecd0800000000000000
+      internalID: -2528535715161004145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_28
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 238
+        width: 69
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e5bd38d6851e200800000000000000
+      internalID: 207544285222624768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_29
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 314
+        width: 68
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a085a245f597080800000000000000
+      internalID: -9189208749580481950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_30
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 314
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a43d06b42f36800800000000000000
+      internalID: 604593180558707331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_31
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 233
+        width: 64
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84190d24bcdf69920800000000000000
+      internalID: 2996861651502797128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_32
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 232
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2109f9060440370800000000000000
+      internalID: 8287819998006612661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_33
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 235
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac127e900be3630a0800000000000000
+      internalID: -6902260453097397814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97
+        width: 150
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb840303dbef1ef0800000000000000
+      internalID: -135130172276569102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_35
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 98
+        width: 152
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ebde3a0e77e5950800000000000000
+      internalID: 6439716323893034639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_36
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 80
+        width: 66
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b39968acb358a5f0800000000000000
+      internalID: -745253668585368653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_37
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 82
+        width: 65
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861dd1f1b14f79e80800000000000000
+      internalID: -8171794601517133464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_38
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 152
+        width: 55
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e70009858cb2160800000000000000
+      internalID: 7001910328376196763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_39
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 80
+        width: 64
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aae949676c780b90800000000000000
+      internalID: -7275428414427108698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 150
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb52407b2e0a4420800000000000000
+      internalID: 2614918113371773880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_41
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf1c0db3792c4160800000000000000
+      internalID: 7011024296978685888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_42
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 0
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05fdba10aef831340800000000000000
+      internalID: 4833365060311834448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_43
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 0
+        width: 74
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835b975fbb91b2a10800000000000000
+      internalID: 1885629164052657464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_44
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 69
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabcdd71afedea760800000000000000
+      internalID: 7471153997577833390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_45
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 3
+        width: 68
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cda07bfb2e84660800000000000000
+      internalID: 7370390103229389942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_46
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 7
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d022ad09f7f073f70800000000000000
+      internalID: 9166812607101411853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_47
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 919
+        width: 155
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a6b292ac893fc41969d6d1fe2717e4
+      internalID: -1248351432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: materialofi2_48
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 539
+        width: 63
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c992b4c24783448af04a732cfcc078
+      internalID: 665219910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 905c9ceb358a1734dab5513217457e50
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      materialofi2_0: 7444676588067897
+      materialofi2_1: 5198822433872835790
+      materialofi2_10: -8498068548527511834
+      materialofi2_11: 1365262938984310433
+      materialofi2_12: -6265531686930689567
+      materialofi2_13: -8200761235061177666
+      materialofi2_14: -557896020712203024
+      materialofi2_15: 951684729742581623
+      materialofi2_16: -907596801007798199
+      materialofi2_17: 1019075157057584064
+      materialofi2_18: -7620340145767825481
+      materialofi2_19: 744869019367981802
+      materialofi2_2: 1660224753986582419
+      materialofi2_20: 5212129102119792495
+      materialofi2_21: -6092434362927231993
+      materialofi2_22: 9211798473096643887
+      materialofi2_23: -3398162997763991593
+      materialofi2_24: 584921386311413291
+      materialofi2_25: 8934238856997807699
+      materialofi2_26: 5344674999428822083
+      materialofi2_27: -2528535715161004145
+      materialofi2_28: 207544285222624768
+      materialofi2_29: -9189208749580481950
+      materialofi2_3: -3387273112321390576
+      materialofi2_30: 604593180558707331
+      materialofi2_31: 2996861651502797128
+      materialofi2_32: 8287819998006612661
+      materialofi2_33: -6902260453097397814
+      materialofi2_34: -135130172276569102
+      materialofi2_35: 6439716323893034639
+      materialofi2_36: -745253668585368653
+      materialofi2_37: -8171794601517133464
+      materialofi2_38: 7001910328376196763
+      materialofi2_39: -7275428414427108698
+      materialofi2_4: 8253253121128946034
+      materialofi2_40: 2614918113371773880
+      materialofi2_41: 7011024296978685888
+      materialofi2_42: 4833365060311834448
+      materialofi2_43: 1885629164052657464
+      materialofi2_44: 7471153997577833390
+      materialofi2_45: 7370390103229389942
+      materialofi2_46: 9166812607101411853
+      materialofi2_47: -1248351432
+      materialofi2_48: 665219910
+      materialofi2_5: 4168022939362790204
+      materialofi2_6: -6619570749519233561
+      materialofi2_7: 7541221571344997624
+      materialofi2_8: 1151017914898579488
+      materialofi2_9: 8479306790703617699
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
