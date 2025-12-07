@@ -23,11 +23,22 @@ public class MenuManager : MonoBehaviour
     {
         if (AudioManager.Instance != null)
         {
+            AudioManager.Instance.reproducirMusicaIntroDungeon();
+        }
+
+        SceneManager.LoadScene("IntroDungeon");
+    }
+
+    public void restartMenuClicked()
+    {
+        if (AudioManager.Instance != null)
+        {
             AudioManager.Instance.reproducirMusicaJuego();
         }
 
         SceneManager.LoadScene("Game");
     }
+
     public void optionsClicked()
     {
         SceneManager.LoadScene("Options");

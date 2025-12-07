@@ -10,6 +10,7 @@ public class AudioManager : MonoBehaviour
 
     [Header("Música")]
     [SerializeField] private AudioClip musicaInicio;
+    [SerializeField] private AudioClip musicaIntroDungeon;
     [SerializeField] private AudioClip musicaJuego;
     [SerializeField] private AudioClip musicaGameOver;
 
@@ -62,6 +63,11 @@ public class AudioManager : MonoBehaviour
         ReproducirMusica(musicaInicio);
     }
 
+    public void reproducirMusicaIntroDungeon()
+    {
+        ReproducirMusica(musicaIntroDungeon);
+    }
+
     public void reproducirMusicaJuego()
     {
         ReproducirMusica(musicaJuego);
@@ -93,5 +99,10 @@ public class AudioManager : MonoBehaviour
     public void reproducirEfectoPalanca()
     {
         ReproducirEfecto(efectoPalanca);
+    }
+
+    public void pararMusica()
+    {
+        musicSource.Stop();
     }
 }

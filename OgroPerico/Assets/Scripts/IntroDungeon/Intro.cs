@@ -109,6 +109,12 @@ public class Intro : MonoBehaviour
             yield return null;
         }
         Debug.Log("Loading Scene");
+
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.reproducirMusicaJuego();
+        }
+
         SceneManager.LoadScene("Game");
     }
 }
