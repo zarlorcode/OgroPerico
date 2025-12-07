@@ -162,7 +162,7 @@ public abstract class EnemyBase : MonoBehaviour
     }
 
     // ===================== FLIP =====================
-    protected void HandleSpriteFlip()
+    protected virtual void HandleSpriteFlip()
     {
         if (movement.x > 0) transform.localScale = new Vector3(1, 1, 1);
         else if (movement.x < 0) transform.localScale = new Vector3(-1, 1, 1);

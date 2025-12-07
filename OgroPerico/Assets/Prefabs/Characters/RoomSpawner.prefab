@@ -94,5 +94,6 @@ MonoBehaviour:
   enemyPrefabs:
   - {fileID: 3574718648071801763, guid: d35973f0f5a1aa840933f2b69a854686, type: 3}
   - {fileID: 8601536020017686506, guid: 9a9b682d697e98d4f93c71655bf5da41, type: 3}
+  - {fileID: 6353128112497351277, guid: 982e8db6ea126c641aa06755e39bb2da, type: 3}
   spawnInterval: 5
   maxEnemies: 5
