@@ -15,10 +15,20 @@ public class Puerta : MonoBehaviour
     [SerializeField] private Sprite spriteAbierta;
     [SerializeField] private Sprite spriteCerrada;
 
+    [SerializeField] private Vector3 cambioPosicionCamara;
+    [SerializeField] private Vector3 cambioPosicionJugador;
+
+    private CamController camControl;
+    private Collider2D miCollider;
+
     private void Start()
     {
         if (myRenderer == null) myRenderer = GetComponent<SpriteRenderer>();
         if (spriteCerrada != null) myRenderer.sprite = spriteCerrada;
+
+        miCollider = GetComponent<Collider2D>();
+        
+        camControl = Camera.main.GetComponent<CamController>();
 
         DetectarArchivadores();
     }
@@ -63,6 +73,8 @@ public class Puerta : MonoBehaviour
         Debug.Log("¡PUERTA ABIERTA!");
         if (myRenderer != null && spriteAbierta != null)
             myRenderer.sprite = spriteAbierta;
+
+        if (miCollider != null) miCollider.isTrigger = true;
     }
 
     private void CerrarPuerta()
@@ -71,6 +83,26 @@ public class Puerta : MonoBehaviour
         Debug.Log("Puerta cerrada (combinación rota).");
         if (myRenderer != null && spriteCerrada != null)
             myRenderer.sprite = spriteCerrada;
+
+        if (miCollider != null) miCollider.isTrigger = false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        // 1. Comprobamos si es el Player
+        // 2. Comprobamos si la puerta ESTÁ ABIERTA
+        if (other.CompareTag("Player") && estaAbierta)
+        {
+            if (camControl != null)
+            {
+                // Actualizamos los límites de la cámara (Min y Max)
+                camControl.minPos += cambioPosicionCamara;
+                camControl.maxPos += cambioPosicionCamara;
+            }
+
+            // Movemos al jugador a la nueva posición
+            other.transform.position += cambioPosicionJugador;
+        }
     }
 
     private void OnDrawGizmosSelected()

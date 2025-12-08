@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: 421997ccd23231b43af58674ab3709cb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3403068091318283216
+    second: despacho_0
+  - first:
+      213: 5748040259022671883
+    second: despacho_1
+  - first:
+      213: -791011219013075352
+    second: despacho_2
+  - first:
+      213: 1358060598906382409
+    second: despacho_3
+  - first:
+      213: 5837451269248450578
+    second: despacho_4
+  - first:
+      213: -8099285418533060761
+    second: despacho_5
+  - first:
+      213: 8226473366071665208
+    second: despacho_6
+  - first:
+      213: 6011946459845780703
+    second: despacho_7
+  - first:
+      213: -5951666649262554828
+    second: despacho_8
+  - first:
+      213: -6939983713903944961
+    second: despacho_9
+  - first:
+      213: 1617997430256347648
+    second: despacho_10
+  - first:
+      213: 5939456645354818122
+    second: despacho_11
+  - first:
+      213: 3211120760418745091
+    second: despacho_12
+  - first:
+      213: 1282653132796860531
+    second: despacho_13
+  - first:
+      213: 3467507136299662163
+    second: despacho_14
+  - first:
+      213: -3150960543167481377
+    second: despacho_15
+  - first:
+      213: -3133791568347296745
+    second: despacho_16
+  - first:
+      213: 4237746114267833032
+    second: despacho_17
+  - first:
+      213: -5081381031408788098
+    second: despacho_18
+  - first:
+      213: 7048819373833683818
+    second: despacho_19
+  - first:
+      213: 6185381940878798811
+    second: despacho_20
+  - first:
+      213: -5439026890678311390
+    second: despacho_21
+  - first:
+      213: 4346299837750926973
+    second: despacho_22
+  - first:
+      213: -4429424141720543318
+    second: despacho_23
+  - first:
+      213: 501156016555527174
+    second: despacho_24
+  - first:
+      213: -6777830416837391364
+    second: despacho_25
+  - first:
+      213: 1333470860078368466
+    second: despacho_26
+  - first:
+      213: 4112949280443455645
+    second: despacho_27
+  - first:
+      213: 962970895459097720
+    second: despacho_28
+  - first:
+      213: -4726204571802931911
+    second: despacho_29
+  - first:
+      213: -5999877136304296022
+    second: despacho_30
+  - first:
+      213: 4637133808721705900
+    second: despacho_31
+  - first:
+      213: 1096718709511302520
+    second: despacho_32
+  - first:
+      213: 951857776195621876
+    second: despacho_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: despacho_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 846
+        width: 269
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034d186e99fd5c0d0800000000000000
+      internalID: -3403068091318283216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_1
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 867
+        width: 102
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00d0b1492425cf40800000000000000
+      internalID: 5748040259022671883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_2
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 926
+        width: 177
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e706dbc73c505f0800000000000000
+      internalID: -791011219013075352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_3
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 854
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948e44d5becc8d210800000000000000
+      internalID: 1358060598906382409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_4
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 854
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2100531500bc20150800000000000000
+      internalID: 5837451269248450578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_5
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 854
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ff5ddd2de899f80800000000000000
+      internalID: -8099285418533060761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_6
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 854
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832e9e2d0fd4a2270800000000000000
+      internalID: 8226473366071665208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 610
+        width: 186
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd466cbd379be6350800000000000000
+      internalID: 6011946459845780703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_8
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 615
+        width: 100
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4318a2d37be676da0800000000000000
+      internalID: -5951666649262554828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_9
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 610
+        width: 85
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa52c1f49930bf90800000000000000
+      internalID: -6939983713903944961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_10
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 611
+        width: 177
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00aaced1718447610800000000000000
+      internalID: 1617997430256347648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_11
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 393
+        width: 286
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a0531b9503d6250800000000000000
+      internalID: 5939456645354818122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_12
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 552
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b34af7151309c20800000000000000
+      internalID: 3211120760418745091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_13
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 550
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378166e7a36ecc110800000000000000
+      internalID: 1282653132796860531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_14
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 550
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bf54b6e5f0f1030800000000000000
+      internalID: 3467507136299662163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_15
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 383
+        width: 202
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9fa3b941a8544d0800000000000000
+      internalID: -3150960543167481377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 215
+        width: 149
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c8b801c298284d0800000000000000
+      internalID: -3133791568347296745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_17
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 226
+        width: 124
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2e93d63af7fca30800000000000000
+      internalID: 4237746114267833032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_18
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 228
+        width: 60
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d987ecfde4b79b0800000000000000
+      internalID: -5081381031408788098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_19
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 226
+        width: 61
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a638f3fcfdf62d160800000000000000
+      internalID: 7048819373833683818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_20
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 227
+        width: 61
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf623a8a14e6d550800000000000000
+      internalID: 6185381940878798811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_21
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 228
+        width: 61
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22662513cd1b484b0800000000000000
+      internalID: -5439026890678311390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_22
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 149
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e5b7cbca8215c30800000000000000
+      internalID: 4346299837750926973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_23
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 157
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf153116368782c0800000000000000
+      internalID: -4429424141720543318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_24
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 151
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c87d7edb674f600800000000000000
+      internalID: 501156016555527174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_25
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 149
+        width: 51
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbc198752f40f1a0800000000000000
+      internalID: -6777830416837391364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_26
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 153
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d64e45aea0718210800000000000000
+      internalID: 1333470860078368466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_27
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 149
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98d7084491241930800000000000000
+      internalID: 4112949280443455645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_28
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 149
+        width: 62
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c11e86de82d5d00800000000000000
+      internalID: 962970895459097720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 230
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93debd18bf5296eb0800000000000000
+      internalID: -4726204571802931911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_30
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 107
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf289288872cbca0800000000000000
+      internalID: -5999877136304296022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_31
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 0
+        width: 78
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cabbfc461a86a5040800000000000000
+      internalID: 4637133808721705900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_32
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 72
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d22fa0bd3583f00800000000000000
+      internalID: 1096718709511302520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: despacho_33
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 72
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f355d2ba9da53d00800000000000000
+      internalID: 951857776195621876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      despacho_0: -3403068091318283216
+      despacho_1: 5748040259022671883
+      despacho_10: 1617997430256347648
+      despacho_11: 5939456645354818122
+      despacho_12: 3211120760418745091
+      despacho_13: 1282653132796860531
+      despacho_14: 3467507136299662163
+      despacho_15: -3150960543167481377
+      despacho_16: -3133791568347296745
+      despacho_17: 4237746114267833032
+      despacho_18: -5081381031408788098
+      despacho_19: 7048819373833683818
+      despacho_2: -791011219013075352
+      despacho_20: 6185381940878798811
+      despacho_21: -5439026890678311390
+      despacho_22: 4346299837750926973
+      despacho_23: -4429424141720543318
+      despacho_24: 501156016555527174
+      despacho_25: -6777830416837391364
+      despacho_26: 1333470860078368466
+      despacho_27: 4112949280443455645
+      despacho_28: 962970895459097720
+      despacho_29: -4726204571802931911
+      despacho_3: 1358060598906382409
+      despacho_30: -5999877136304296022
+      despacho_31: 4637133808721705900
+      despacho_32: 1096718709511302520
+      despacho_33: 951857776195621876
+      despacho_4: 5837451269248450578
+      despacho_5: -8099285418533060761
+      despacho_6: 8226473366071665208
+      despacho_7: 6011946459845780703
+      despacho_8: -5951666649262554828
+      despacho_9: -6939983713903944961
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
