@@ -33,7 +33,11 @@ public class InteractionManager : MonoBehaviour
         // --- NUEVA LÓGICA DE DETECCIÓN DE PUERTAS ---
         
         // 3. Detectar TODOS los colliders de puerta dentro del rango
-        Collider2D[] doorHits = Physics2D.OverlapCircleAll(player.transform.position, detectionRange, doorLayer);
+        Collider2D[] doorHits = Physics2D.OverlapCircleAll(
+            player.transform.position, 
+            detectionRange, 
+            doorLayer
+        );
 
         DoorScript nearestDoor = FindNearestDoor(doorHits);
 

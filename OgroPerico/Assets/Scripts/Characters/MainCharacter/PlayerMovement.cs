@@ -22,6 +22,12 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        if (joystickController == null)
+        {
+            // Busca en la escena cualquier objeto que tenga el script JoystickController
+            joystickController = FindObjectOfType<JoystickController>(); 
+        }
     }
 
     void Update()

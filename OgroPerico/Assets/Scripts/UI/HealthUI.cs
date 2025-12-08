@@ -11,9 +11,17 @@ public class HealthUI : MonoBehaviour
 
     void Start()
     {
-        // execute update when event occurs
-        playerHealth.OnHealthChanged += UpdateHearts;
-        UpdateHearts();
+        if (playerHealth == null)
+        {
+            playerHealth = FindObjectOfType<PlayerHealth>();
+        }
+        if (playerHealth != null)
+        {
+            // execute update when event occurs
+            playerHealth.OnHealthChanged += UpdateHearts;
+            
+            UpdateHearts();
+        }
     }
 
     void UpdateHearts()

@@ -8,6 +8,10 @@ public class DPadController : MonoBehaviour
 
     void Start()
     {
+        if (player == null)
+        {
+            player = FindObjectOfType<PlayerMovement>();
+        }
     }
 
     public void SetPressed(DPadButton.Direction dir, bool isPressed)

@@ -23,7 +23,17 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
-        health = maxHearts * 2;
+        if (DatosDeJuego.VidaJugador != -1)
+        {
+            // Si hay un dato guardado, lo usamos
+            health = DatosDeJuego.VidaJugador;
+        }
+        else
+        {
+            // Si es -1, significa que acabamos de empezar el juego
+            health = maxHearts * 2;
+        }
+        //health = maxHearts * 2;
         Debug.Log("health: " + health);
 
         // notify anyone who is subscribed
@@ -38,6 +48,8 @@ public class PlayerHealth : MonoBehaviour
 
         health -= amount;
         health = Mathf.Max(0, health);
+
+        DatosDeJuego.VidaJugador = health;
         OnHealthChanged?.Invoke();
 
         if (health <= 0)
@@ -60,6 +72,7 @@ public class PlayerHealth : MonoBehaviour
     {
         health += amount;
         health = Mathf.Min(health, maxHearts * 2);
+        DatosDeJuego.VidaJugador = health;
         OnHealthChanged?.Invoke();
     }
 

@@ -26,6 +26,9 @@ public class MenuManager : MonoBehaviour
             AudioManager.Instance.reproducirMusicaIntroDungeon();
         }
 
+        DatosDeJuego.VidaJugador = -1; 
+        DatosDeJuego.PosicionInicialJugador = null;
+
         SceneManager.LoadScene("IntroDungeon");
     }
 
@@ -35,6 +38,9 @@ public class MenuManager : MonoBehaviour
         {
             AudioManager.Instance.reproducirMusicaJuego();
         }
+
+        DatosDeJuego.VidaJugador = -1; 
+        DatosDeJuego.PosicionInicialJugador = null;
 
         SceneManager.LoadScene("Game");
     }
