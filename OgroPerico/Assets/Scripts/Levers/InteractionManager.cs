@@ -9,6 +9,9 @@ public class InteractionManager : MonoBehaviour
     // AÑADIDO: Nueva variable para la capa de las puertas
     [SerializeField] private LayerMask doorLayer; // Capa donde están tus puertas
 
+    [SerializeField] private LayerMask archivadorLayer;
+    [SerializeField] private LayerMask puertaLayer;
+
     // Este método se conecta al evento OnClick() de tu botón de UI
     public void HandleInteractionButtonPress()
     {
@@ -30,7 +33,6 @@ public class InteractionManager : MonoBehaviour
             }
         }
         
-        // --- NUEVA LÓGICA DE DETECCIÓN DE PUERTAS ---
         
         // 3. Detectar TODOS los colliders de puerta dentro del rango
         Collider2D[] doorHits = Physics2D.OverlapCircleAll(
@@ -51,6 +53,22 @@ public class InteractionManager : MonoBehaviour
                 // PRIORIDAD 2: INTERACTUAR con PUERTA.
                 nearestDoor.TryInteract(); // Llamamos al nuevo método
                 return; // Puerta activada, terminamos aquí.
+            }
+        }
+
+        Collider2D[] archivadorHits = Physics2D.OverlapCircleAll(player.transform.position, detectionRange, archivadorLayer);
+
+        Archivador nearestArchivador = FindNearestArchivador(archivadorHits);
+
+        if (nearestArchivador != null)
+        {
+            float dist = Vector2.Distance(player.transform.position, nearestArchivador.transform.position);
+            
+            if (dist <= nearestArchivador.interactionRadius + 0.1f)
+            {
+                // PRIORIDAD 1: ACTIVAR ARCHIVADOR
+                nearestArchivador.TryActivate();
+                return; 
             }
         }
         
@@ -104,5 +122,26 @@ public class InteractionManager : MonoBehaviour
             }
         }
         return nearestDoor;
+    }
+
+    private Archivador FindNearestArchivador(Collider2D[] hits)
+    {
+        Archivador nearest = null;
+        float minDistance = float.MaxValue;
+
+        foreach (Collider2D hit in hits)
+        {
+            Archivador current = hit.GetComponent<Archivador>();
+            if (current != null)
+            {
+                float distance = Vector2.Distance(player.transform.position, hit.transform.position);
+                if (distance < minDistance)
+                {
+                    minDistance = distance;
+                    nearest = current;
+                }
+            }
+        }
+        return nearest;
     }
 }

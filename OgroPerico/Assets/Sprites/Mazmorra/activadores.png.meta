@@ -1,0 +1,2106 @@
+fileFormatVersion: 2
+guid: 76f12b9e8100ed240b8019e9b87039a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4959947207315005438
+    second: activadores_0
+  - first:
+      213: -8020529549831580670
+    second: activadores_1
+  - first:
+      213: 8683903420847507694
+    second: activadores_2
+  - first:
+      213: 4421502157990986820
+    second: activadores_3
+  - first:
+      213: -7312507313763864035
+    second: activadores_4
+  - first:
+      213: -5608779560540129664
+    second: activadores_5
+  - first:
+      213: 1848052458118257182
+    second: activadores_6
+  - first:
+      213: -6851470866340998722
+    second: activadores_7
+  - first:
+      213: 746394838121052590
+    second: activadores_8
+  - first:
+      213: -784765502225463658
+    second: activadores_9
+  - first:
+      213: 6390192414300244615
+    second: activadores_10
+  - first:
+      213: -1316259369233790546
+    second: activadores_11
+  - first:
+      213: 2017511334769117597
+    second: activadores_12
+  - first:
+      213: 255274001299694867
+    second: activadores_13
+  - first:
+      213: -4299809503206919451
+    second: activadores_14
+  - first:
+      213: 5201064918049243131
+    second: activadores_15
+  - first:
+      213: 1351597754771459352
+    second: activadores_16
+  - first:
+      213: -147875777309035872
+    second: activadores_17
+  - first:
+      213: -2497809268130941770
+    second: activadores_18
+  - first:
+      213: -1266611340651731322
+    second: activadores_19
+  - first:
+      213: 2536822805248126631
+    second: activadores_20
+  - first:
+      213: 6206054768520998056
+    second: activadores_21
+  - first:
+      213: -7257621128148470191
+    second: activadores_22
+  - first:
+      213: -3448461490237584131
+    second: activadores_23
+  - first:
+      213: 8536340088901328694
+    second: activadores_24
+  - first:
+      213: -756687785310774400
+    second: activadores_25
+  - first:
+      213: 1685432938550219141
+    second: activadores_26
+  - first:
+      213: -6939210881094255216
+    second: activadores_27
+  - first:
+      213: -6359003296640746833
+    second: activadores_28
+  - first:
+      213: -3211115952921215344
+    second: activadores_29
+  - first:
+      213: 6654152684141884652
+    second: activadores_30
+  - first:
+      213: 5649754525004553183
+    second: activadores_31
+  - first:
+      213: -2962243161736752185
+    second: activadores_32
+  - first:
+      213: 5064699783665609286
+    second: activadores_33
+  - first:
+      213: -6251353057237455104
+    second: activadores_34
+  - first:
+      213: 8475263097928487136
+    second: activadores_35
+  - first:
+      213: -7232347303697543422
+    second: activadores_36
+  - first:
+      213: 9141794845726309830
+    second: activadores_37
+  - first:
+      213: -1753256379807300550
+    second: activadores_38
+  - first:
+      213: 1402307119652081716
+    second: activadores_39
+  - first:
+      213: -6483259462826101335
+    second: activadores_40
+  - first:
+      213: -2105751437588084969
+    second: activadores_41
+  - first:
+      213: 2662942619131089181
+    second: activadores_42
+  - first:
+      213: 7030329316846446530
+    second: activadores_43
+  - first:
+      213: 4650795280129958838
+    second: activadores_44
+  - first:
+      213: 5718010001471622173
+    second: activadores_45
+  - first:
+      213: 7073969635364555495
+    second: activadores_46
+  - first:
+      213: 1727495205004707290
+    second: activadores_47
+  - first:
+      213: 1149625743371310907
+    second: activadores_48
+  - first:
+      213: -7195951866435766655
+    second: activadores_49
+  - first:
+      213: -3868215671726585005
+    second: activadores_50
+  - first:
+      213: -5024617834101758847
+    second: activadores_51
+  - first:
+      213: 73165624195836241
+    second: activadores_52
+  - first:
+      213: 5932958804772152236
+    second: activadores_53
+  - first:
+      213: 6112110620708568991
+    second: activadores_54
+  - first:
+      213: 1511732512543650709
+    second: activadores_55
+  - first:
+      213: 241034343531570014
+    second: activadores_56
+  - first:
+      213: 8259974761781035919
+    second: activadores_57
+  - first:
+      213: -2457609669782187570
+    second: activadores_58
+  - first:
+      213: 8238238385448235204
+    second: activadores_59
+  - first:
+      213: -4326821389241945261
+    second: activadores_60
+  - first:
+      213: 139742367472945432
+    second: activadores_61
+  - first:
+      213: 129035572280340624
+    second: activadores_62
+  - first:
+      213: 4972037187590692993
+    second: activadores_63
+  - first:
+      213: -1925454173059077988
+    second: activadores_64
+  - first:
+      213: 3222142114722903267
+    second: activadores_65
+  - first:
+      213: 780540998666562878
+    second: activadores_66
+  - first:
+      213: -3581017819932135471
+    second: activadores_67
+  - first:
+      213: 1909326297266754449
+    second: activadores_68
+  - first:
+      213: -610773178378489099
+    second: activadores_69
+  - first:
+      213: 9171631441726299936
+    second: activadores_70
+  - first:
+      213: 3351194321048265864
+    second: activadores_71
+  - first:
+      213: 6902655457610174593
+    second: activadores_72
+  - first:
+      213: 1456977103938399073
+    second: activadores_73
+  - first:
+      213: 8545558052542206248
+    second: activadores_74
+  - first:
+      213: 3558705951726562200
+    second: activadores_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: activadores_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 497
+        width: 88
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff93b4c4b545d440800000000000000
+      internalID: 4959947207315005438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 497
+        width: 181
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204d3c77eda51b090800000000000000
+      internalID: -8020529549831580670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_2
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 497
+        width: 90
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee84a67e62c638870800000000000000
+      internalID: 8683903420847507694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_3
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 498
+        width: 75
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4440dac59c45c5d30800000000000000
+      internalID: 4421502157990986820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_4
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 509
+        width: 85
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12b8a96751c48a90800000000000000
+      internalID: -7312507313763864035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_5
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 502
+        width: 85
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086b88ec4bc9922b0800000000000000
+      internalID: -5608779560540129664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_6
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 495
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a1d645be995a910800000000000000
+      internalID: 1848052458118257182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_7
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 496
+        width: 54
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb19ec63c8faae0a0800000000000000
+      internalID: -6851470866340998722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_8
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 496
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9f364962abb5a00800000000000000
+      internalID: 746394838121052590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_9
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 507
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696cedffee3fb15f0800000000000000
+      internalID: -784765502225463658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 507
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a03c4e4268ea850800000000000000
+      internalID: 6390192414300244615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 408
+        width: 88
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea94a88d315bbbde0800000000000000
+      internalID: -1316259369233790546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_12
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 403
+        width: 91
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99cc37aed3affb10800000000000000
+      internalID: 2017511334769117597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_13
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 403
+        width: 90
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3156cd70a5aea8300800000000000000
+      internalID: 255274001299694867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_14
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 403
+        width: 89
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2b087c9020454c0800000000000000
+      internalID: -4299809503206919451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_15
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 399
+        width: 61
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff321e8cf4ed2840800000000000000
+      internalID: 5201064918049243131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_16
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 403
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d4e543ff6d1c210800000000000000
+      internalID: 1351597754771459352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_17
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 397
+        width: 85
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a23c9693c3a2fdf0800000000000000
+      internalID: -147875777309035872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_18
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 395
+        width: 62
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4706064bff55dd0800000000000000
+      internalID: -2497809268130941770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_19
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 395
+        width: 54
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686e8fb42b71c6ee0800000000000000
+      internalID: -1266611340651731322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_20
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 395
+        width: 66
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aeace496ea943320800000000000000
+      internalID: 2536822805248126631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_21
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 406
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac205e4ee5502650800000000000000
+      internalID: 6206054768520998056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_22
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 406
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15637565900c74b90800000000000000
+      internalID: -7257621128148470191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 298
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc46cc9b8a9420d0800000000000000
+      internalID: -3448461490237584131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_24
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 298
+        width: 89
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fd3e8551c277670800000000000000
+      internalID: 8536340088901328694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_25
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 299
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b9ca6e774bf75f0800000000000000
+      internalID: -756687785310774400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_26
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 299
+        width: 61
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581570be35cd36710800000000000000
+      internalID: 1685432938550219141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_27
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 303
+        width: 89
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09df9da1878f2bf90800000000000000
+      internalID: -6939210881094255216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_28
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 299
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faab032713840c7a0800000000000000
+      internalID: -6359003296640746833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_29
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 300
+        width: 85
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e7a85dd03df63d0800000000000000
+      internalID: -3211115952921215344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_30
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 296
+        width: 85
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce43d7b6c9c485c50800000000000000
+      internalID: 6654152684141884652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_31
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 293
+        width: 55
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb5d0b8ec5f76e40800000000000000
+      internalID: 5649754525004553183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_32
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 293
+        width: 67
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3d95ef98ff3e6d0800000000000000
+      internalID: -2962243161736752185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_33
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 293
+        width: 66
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ae26b8e9d694640800000000000000
+      internalID: 5064699783665609286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_34
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 293
+        width: 66
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f2fc9f38bbe39a0800000000000000
+      internalID: -6251353057237455104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_35
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 293
+        width: 56
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0110a32ee2e9570800000000000000
+      internalID: 8475263097928487136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 199
+        width: 86
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f8ad6227a81ab90800000000000000
+      internalID: -7232347303697543422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_37
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 199
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd73051afd2ede70800000000000000
+      internalID: 9141794845726309830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_38
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 198
+        width: 89
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3406699c9e2ba7e0800000000000000
+      internalID: -1753256379807300550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_39
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 199
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4301dd445eef57310800000000000000
+      internalID: 1402307119652081716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_40
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 199
+        width: 61
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a57f8b4ed5d606a0800000000000000
+      internalID: -6483259462826101335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_41
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 199
+        width: 60
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7174b49693ed6c2e0800000000000000
+      internalID: -2105751437588084969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_42
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 199
+        width: 63
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d119e86043ca4f420800000000000000
+      internalID: 2662942619131089181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_43
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 195
+        width: 85
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7a5a0f34fb09160800000000000000
+      internalID: 7030329316846446530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_44
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 194
+        width: 57
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3a5339aa1fa8040800000000000000
+      internalID: 4650795280129958838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_45
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 201
+        width: 83
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1cc8df0dc37a5f40800000000000000
+      internalID: 5718010001471622173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_46
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 201
+        width: 82
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eacdc367e9cb2260800000000000000
+      internalID: 7073969635364555495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_47
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 206
+        width: 78
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad50f7d7cbb49f710800000000000000
+      internalID: 1727495205004707290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_48
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 206
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b379a4ac58a44ff00800000000000000
+      internalID: 1149625743371310907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_49
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 206
+        width: 76
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186794c37e7d22c90800000000000000
+      internalID: -7195951866435766655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 86
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b432c5756515ac0800000000000000
+      internalID: -3868215671726585005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_51
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 100
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184a54293b8f44ab0800000000000000
+      internalID: -5024617834101758847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_52
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 102
+        width: 90
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15966ff5fbfe30100800000000000000
+      internalID: 73165624195836241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_53
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 102
+        width: 88
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca36879499a165250800000000000000
+      internalID: 5932958804772152236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_54
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 100
+        width: 60
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ff937e93492d450800000000000000
+      internalID: 6112110620708568991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_55
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 99
+        width: 60
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593b29de5b0caf410800000000000000
+      internalID: 1511732512543650709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_56
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 96
+        width: 58
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e536ed85573585300800000000000000
+      internalID: 241034343531570014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_57
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 96
+        width: 57
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8386a9584351a270800000000000000
+      internalID: 8259974761781035919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_58
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 97
+        width: 51
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1511cb601d4edd0800000000000000
+      internalID: -2457609669782187570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_59
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 97
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c031abd92a145270800000000000000
+      internalID: 8238238385448235204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_60
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 107
+        width: 78
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353fba7feda04f3c0800000000000000
+      internalID: -4326821389241945261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_61
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 107
+        width: 76
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8190c4d51f670f100800000000000000
+      internalID: 139742367472945432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_62
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 107
+        width: 76
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090b8295b2d6ac100800000000000000
+      internalID: 129035572280340624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_63
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 85
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1802068aa79300540800000000000000
+      internalID: 4972037187590692993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_64
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98258f81a96745e0800000000000000
+      internalID: -1925454173059077988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_65
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1
+        width: 86
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e472e38e2957bc20800000000000000
+      internalID: 3222142114722903267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_66
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 3
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d262e17e905da00800000000000000
+      internalID: 780540998666562878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_67
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 0
+        width: 60
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dfe99c044bad4ec0800000000000000
+      internalID: -3581017819932135471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_68
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1
+        width: 60
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19395ecb62a4f7a10800000000000000
+      internalID: 1909326297266754449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_69
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 10
+        width: 86
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2f960c7091687f0800000000000000
+      internalID: -610773178378489099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_70
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 10
+        width: 85
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f56eee33e284f70800000000000000
+      internalID: 9171631441726299936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_71
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 0
+        width: 51
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8846367ca75d18e20800000000000000
+      internalID: 3351194321048265864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_72
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 12
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18014cd11982bcf50800000000000000
+      internalID: 6902655457610174593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_73
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 5
+        width: 73
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b2026e4f8383410800000000000000
+      internalID: 1456977103938399073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_74
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 5
+        width: 72
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821d141c5cbe79670800000000000000
+      internalID: 8545558052542206248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: activadores_75
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5
+        width: 72
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89beab05530136130800000000000000
+      internalID: 3558705951726562200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      activadores_0: 4959947207315005438
+      activadores_1: -8020529549831580670
+      activadores_10: 6390192414300244615
+      activadores_11: -1316259369233790546
+      activadores_12: 2017511334769117597
+      activadores_13: 255274001299694867
+      activadores_14: -4299809503206919451
+      activadores_15: 5201064918049243131
+      activadores_16: 1351597754771459352
+      activadores_17: -147875777309035872
+      activadores_18: -2497809268130941770
+      activadores_19: -1266611340651731322
+      activadores_2: 8683903420847507694
+      activadores_20: 2536822805248126631
+      activadores_21: 6206054768520998056
+      activadores_22: -7257621128148470191
+      activadores_23: -3448461490237584131
+      activadores_24: 8536340088901328694
+      activadores_25: -756687785310774400
+      activadores_26: 1685432938550219141
+      activadores_27: -6939210881094255216
+      activadores_28: -6359003296640746833
+      activadores_29: -3211115952921215344
+      activadores_3: 4421502157990986820
+      activadores_30: 6654152684141884652
+      activadores_31: 5649754525004553183
+      activadores_32: -2962243161736752185
+      activadores_33: 5064699783665609286
+      activadores_34: -6251353057237455104
+      activadores_35: 8475263097928487136
+      activadores_36: -7232347303697543422
+      activadores_37: 9141794845726309830
+      activadores_38: -1753256379807300550
+      activadores_39: 1402307119652081716
+      activadores_4: -7312507313763864035
+      activadores_40: -6483259462826101335
+      activadores_41: -2105751437588084969
+      activadores_42: 2662942619131089181
+      activadores_43: 7030329316846446530
+      activadores_44: 4650795280129958838
+      activadores_45: 5718010001471622173
+      activadores_46: 7073969635364555495
+      activadores_47: 1727495205004707290
+      activadores_48: 1149625743371310907
+      activadores_49: -7195951866435766655
+      activadores_5: -5608779560540129664
+      activadores_50: -3868215671726585005
+      activadores_51: -5024617834101758847
+      activadores_52: 73165624195836241
+      activadores_53: 5932958804772152236
+      activadores_54: 6112110620708568991
+      activadores_55: 1511732512543650709
+      activadores_56: 241034343531570014
+      activadores_57: 8259974761781035919
+      activadores_58: -2457609669782187570
+      activadores_59: 8238238385448235204
+      activadores_6: 1848052458118257182
+      activadores_60: -4326821389241945261
+      activadores_61: 139742367472945432
+      activadores_62: 129035572280340624
+      activadores_63: 4972037187590692993
+      activadores_64: -1925454173059077988
+      activadores_65: 3222142114722903267
+      activadores_66: 780540998666562878
+      activadores_67: -3581017819932135471
+      activadores_68: 1909326297266754449
+      activadores_69: -610773178378489099
+      activadores_7: -6851470866340998722
+      activadores_70: 9171631441726299936
+      activadores_71: 3351194321048265864
+      activadores_72: 6902655457610174593
+      activadores_73: 1456977103938399073
+      activadores_74: 8545558052542206248
+      activadores_75: 3558705951726562200
+      activadores_8: 746394838121052590
+      activadores_9: -784765502225463658
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
