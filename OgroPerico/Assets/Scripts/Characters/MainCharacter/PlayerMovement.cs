@@ -23,6 +23,8 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
+        moveSpeed = DatosDeJuego.VelocidadMovimiento;
+
         if (joystickController == null)
         {
             // Busca en la escena cualquier objeto que tenga el script JoystickController
@@ -98,5 +100,15 @@ public class PlayerMovement : MonoBehaviour
     {
         knockbackTimer = 0.2f;
         knockbackVelocity = direction.normalized * 7f;
+    }
+
+    public void IncreaseMoveSpeed(float percentage)
+    {
+        moveSpeed += moveSpeed * percentage;
+        
+        // 2. GUARDAR DATOS
+        DatosDeJuego.VelocidadMovimiento = moveSpeed;
+        
+        Debug.Log("Nueva velocidad guardada: " + moveSpeed);
     }
 }

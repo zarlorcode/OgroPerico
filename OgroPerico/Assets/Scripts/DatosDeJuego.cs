@@ -7,4 +7,8 @@ public static class DatosDeJuego
     public static Vector2? PosicionInicialJugador = null;
 
     public static int VidaJugador = -1;
+
+    public static int MaxCorazones = 5;       
+    public static float VelocidadMovimiento = 5f; 
+    public static float MultiplicadorAtaque = 1f;
 }

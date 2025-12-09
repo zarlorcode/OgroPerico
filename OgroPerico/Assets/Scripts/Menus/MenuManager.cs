@@ -26,8 +26,7 @@ public class MenuManager : MonoBehaviour
             AudioManager.Instance.reproducirMusicaIntroDungeon();
         }
 
-        DatosDeJuego.VidaJugador = -1; 
-        DatosDeJuego.PosicionInicialJugador = null;
+        ResetearDatosJuego();
 
         SceneManager.LoadScene("IntroDungeon");
     }
@@ -39,8 +38,7 @@ public class MenuManager : MonoBehaviour
             AudioManager.Instance.reproducirMusicaJuego();
         }
 
-        DatosDeJuego.VidaJugador = -1; 
-        DatosDeJuego.PosicionInicialJugador = null;
+        ResetearDatosJuego();
 
         SceneManager.LoadScene("Game");
     }
@@ -68,5 +66,16 @@ public class MenuManager : MonoBehaviour
             AudioManager.Instance.reproducirMusicaInicio();
         }
         SceneManager.LoadScene("MainMenu");
+    }
+
+    public void ResetearDatosJuego()
+    {
+        DatosDeJuego.VidaJugador = -1;
+        DatosDeJuego.PosicionInicialJugador = null;
+        
+        // Reseteamos a los valores iniciales de tu juego
+        DatosDeJuego.MaxCorazones = 5;
+        DatosDeJuego.VelocidadMovimiento = 5f;
+        DatosDeJuego.MultiplicadorAtaque = 1f;
     }
 }

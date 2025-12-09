@@ -23,6 +23,8 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
+        maxHearts = DatosDeJuego.MaxCorazones;
+
         if (DatosDeJuego.VidaJugador != -1)
         {
             // Si hay un dato guardado, lo usamos
@@ -107,5 +109,17 @@ public class PlayerHealth : MonoBehaviour
     private Vector2 CalculateHitDirection(Vector2 sourcePos)
     {
         return ((Vector2)transform.position - sourcePos).normalized;
+    }
+
+    public void IncreaseMaxHealth(int amountOfHearts)
+    {
+        maxHearts += amountOfHearts;
+        health += amountOfHearts * 2;
+        
+        // 2. GUARDAR DATOS
+        DatosDeJuego.MaxCorazones = maxHearts; // Guardamos el nuevo máximo
+        DatosDeJuego.VidaJugador = health;
+        
+        OnHealthChanged?.Invoke();
     }
 }
