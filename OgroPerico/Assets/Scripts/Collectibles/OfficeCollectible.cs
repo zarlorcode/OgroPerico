@@ -6,6 +6,13 @@ public class OfficeCollectible : MonoBehaviour
     
     [Header("Configuración del Item")]
     public CollectibleType tipoDeObjeto;
+
+    [Header("Info para UI")]
+    public string nombreItem = "Nombre del Objeto";
+    [TextArea(3, 5)] // Esto hace la caja de texto más grande en el editor
+    public string descripcionItem = "Descripción del Objeto.";
+    private SpriteRenderer spriteRenderer;
+    public Sprite iconoUI;
     
     [Header("Valores")]
     public int corazonesExtra = 1;       // Para el Tupper
@@ -14,6 +21,13 @@ public class OfficeCollectible : MonoBehaviour
     [Header("Feedback")]
     [SerializeField] private AudioClip sonidoRecoger; 
     // Puedes añadir partículas aquí si quieres
+
+    void Start()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        // Si no asignamos icono específico para la UI, usamos el mismo que se ve en el juego
+        if (iconoUI == null) iconoUI = spriteRenderer.sprite;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -42,7 +56,7 @@ public class OfficeCollectible : MonoBehaviour
                 if (movement != null)
                 {
                     movement.IncreaseMoveSpeed(porcentajeVelocidad);
-                    Debug.Log("¡Café bebido! +Attack Speed");
+                    Debug.Log("¡Café bebido! +Movement Speed");
                 }
                 break;
         }
@@ -51,6 +65,15 @@ public class OfficeCollectible : MonoBehaviour
         if (sonidoRecoger != null)
         {
             AudioSource.PlayClipAtPoint(sonidoRecoger, transform.position);
+        }
+
+        if (CollectibleInfoUI.Instance != null)
+        {
+            CollectibleInfoUI.Instance.MostrarInformacion(nombreItem, descripcionItem, iconoUI);
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró CollectibleInfoUI en la escena.");
         }
 
         // Destruir el objeto

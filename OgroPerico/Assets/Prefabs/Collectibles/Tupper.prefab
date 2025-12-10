@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8319795167958559939}
   - component: {fileID: 1844335282900717764}
   - component: {fileID: 6188280951842014902}
+  - component: {fileID: 8929740219429656452}
   m_Layer: 0
   m_Name: Tupper
   m_TagString: Untagged
@@ -102,6 +103,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tipoDeObjeto: 0
+  nombreItem: "Tupper de Mam\xE1"
+  descripcionItem: "Un buen tupper de lentejas de tu madre te da la vida extra que
+    necesitas para seguir trabajando.\\n\\n +1 Coraz\xF3n M\xE1ximo"
+  iconoUI: {fileID: 0}
   corazonesExtra: 1
   porcentajeVelocidad: 0.1
   sonidoRecoger: {fileID: 0}
@@ -151,3 +156,15 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 5.43, y: 5.89}
   m_EdgeRadius: 0
+--- !u!114 &8929740219429656452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939234559908791560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57aaa367825b93f42bb3cad30bfe57e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
