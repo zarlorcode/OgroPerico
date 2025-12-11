@@ -43,7 +43,7 @@ public abstract class EnemyBase : MonoBehaviour
     [Header("Knockback")]
     protected Vector2 knockbackVelocity = Vector2.zero;
     protected float knockbackTimer = 0f;    // time of knoback remaining
-    public float knockbackDuration = 0.3f;     // knoback time
+    public float knockbackDuration = 0.2f;     // knoback time
 
     protected enum EnemyState { Wandering, Chasing, Attacking }
     protected EnemyState currentState;
@@ -186,6 +186,7 @@ public abstract class EnemyBase : MonoBehaviour
 
     public void ApplyKnockback(Vector2 direction, float force = 2f, float duration = 0.2f)
     {
+        Debug.Log("knoback, force: " + force + " duration: " + duration);
         knockbackVelocity = direction.normalized * force;
         knockbackTimer = duration;
     }

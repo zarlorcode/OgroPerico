@@ -9,7 +9,7 @@ public class CrabEnemy : EnemyBase
 
     [Header("Ataque Especial")]
     public float chargeSpeedMultiplier = 3f;   // Cuánto más rápido ataca
-    public float knockbackBackDistance = 0.5f;   // Distancia que retrocede
+    public float knockbackBackForce = 0.3f;   // Distancia que retrocede
 
     private float lastDamageTime;
     private PlayerHealth playerHealth;
@@ -31,7 +31,7 @@ public class CrabEnemy : EnemyBase
             {
                 // Retroceso inicial
                 Vector2 knockbackDir = ((Vector2)transform.position - (Vector2)player.position).normalized;
-                ApplyKnockback(knockbackDir, knockbackBackDistance, knockbackDuration);
+                ApplyKnockback(knockbackDir, knockbackBackForce, knockbackDuration);
 
                 // Daño al jugador después de un pequeño retraso
                 StartCoroutine(DelayedChargeAttack(knockbackDuration, knockbackDir));
@@ -43,7 +43,7 @@ public class CrabEnemy : EnemyBase
 
     private IEnumerator DelayedChargeAttack(float delay, Vector2 knockbackDir)
     {
-        yield return new WaitForSeconds(delay);
+        //yield return new WaitForSeconds(delay);
 
         // Daño al jugador
         playerHealth.TakeDamage(damageToPlayer, transform.position);
