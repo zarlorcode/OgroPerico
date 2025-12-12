@@ -18,6 +18,30 @@ public class Intro : MonoBehaviour
 
     private DialogueLine[] dialogueLines = new DialogueLine[]
     {
+        new DialogueLine { characterName = "Julián", sentence =
+            "¡¡¿Qué ha pasado?!! ¿Dónde estoy? Esto no es mi oficina… Respira, calma… Todo está oscuro y silencioso. Demasiado silencioso." },
+
+        new DialogueLine { characterName = "Julián", sentence =
+            "Estaba en mi escritorio, otra jornada agotadora, cuando apareció un archivo nuevo: “Plan Dorado”. Jamás lo había visto antes." },
+
+        new DialogueLine { characterName = "Julián", sentence =
+            "Había escuchado rumores… una leyenda entre empleados. Un documento capaz de reestructurar toda la empresa. Tonterías de pasillo… o eso creía." },
+
+        new DialogueLine { characterName = "Julián", sentence =
+            "Decían que el jefe pactó con el Ogro Perico para multiplicar beneficios, y que el documento fue sellado en las mazmorras administrativas para que nadie lo consiguiera jamás." },
+
+        new DialogueLine { characterName = "Julián", sentence =
+            "Abrí el archivo. Dentro había un protocolo secreto… y un enlace sin remitente. No sé por qué hice clic. Todo se volvió negro. Y ahora estoy aquí… donde sea que 'aquí' sea." },
+
+        new DialogueLine { characterName = "Julián", sentence =
+            "No veo salida. Solo sombras… y este lugar parece observarme. Sea lo que sea este Plan Dorado, alguien quería que lo encontrara. Necesito descubrir qué es este sitio y sobrevivir lo suficiente para salir." },
+
+        new DialogueLine { characterName = "Ogro Perico", sentence =
+            "RRAAAAAARGHHH!! ¿Quién es el insensato que se atreve a entrar en mis mazmorras?" }
+    };
+
+    /*private DialogueLine[] extendedDialogueLines = new DialogueLine[]
+    {
         new DialogueLine { characterName = "Julián", sentence = "¡¡¿Qué ha pasado?!! ¿Dónde estoy? Esto… esto no es mi oficina. No puede ser. Respira… calma… Tiene que haber una explicación. Todo está oscuro, silencioso… demasiado silencioso." },
         new DialogueLine { characterName = "Julián", sentence = "Recuerdo estar en mi escritorio, revisando informes y correos urgentes. Otra jornada agotadora en Perico’s Corporation, como siempre. Y entonces lo vi: un archivo nuevo, justo en medio del escritorio digital. Se llamaba “Plan Dorado”. Jamás lo había visto antes." },
         new DialogueLine { characterName = "Julián", sentence = "Había escuchado rumores: el Plan Dorado, una especie de leyenda en la empresa. Pero, ¿qué tontería es esa? Nadie la toma en serio…" },
@@ -33,7 +57,7 @@ public class Intro : MonoBehaviour
         new DialogueLine { characterName = "Julián", sentence = "Sea lo que sea este Plan Dorado, estoy seguro de que no era un simple archivo mal colocado. Alguien quería que lo viera. Debe haber una salida… una forma de apagar lo que sea esto. Pero algo me dice que no va a ser tan simple." },
         new DialogueLine { characterName = "Julián", sentence = "Primero averiguaré qué es este sitio. Espero sobrevivir el tiempo suficiente para encontrar el camino de vuelta..." },
         new DialogueLine { characterName = "Ogro Perico", sentence = "RRAAAARGH!! ¿Qué… qué es ese ruido? ¿Quién osa entrar en mis mazmorras?" }
-    };
+    };*/
 
     public CanvasGroup fadeGroup;
     public float fadeDuration = 1f;

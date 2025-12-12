@@ -12,9 +12,9 @@ public class SceneMaster : MonoBehaviour
     {
         DialogueLine[] dialogueLines = new DialogueLine[]
                 {
-                    new DialogueLine { characterName = "Ogro Perico", sentence = "¡GRAAAARRR! Así que finalmente alguien ha entrado… veo quién eres."},
-                    new DialogueLine { characterName = "Ogro Perico", sentence = "¡No conseguirás el Plan Dorado… ni saldrás de mis mazmorras con vida!" },
-                    new DialogueLine { characterName = "Ogro Perico", sentence = "Bienvenido a la mazmorra" }
+                    new DialogueLine { characterName = "Ogro Perico", sentence = "¡¡GRUAAAAARGH!! ¿Quién osa perturbar mis dominios? Mmm… ya veo quién eres, ratilla de oficina." },
+                    new DialogueLine { characterName = "Ogro Perico", sentence = "¿Vienes por el Plan Dorado? ¡Qué osadía! No lo conseguirás… y tampoco saldrás de estas mazmorras con vida." },
+                    new DialogueLine { characterName = "Ogro Perico", sentence = "Bienvenido a mi mazmorra. Aquí solo sobreviven los que saben obedecer… y tú has llegado demasiado lejos." }
                 };
 
         introSentences = dialogueLines;

@@ -14,7 +14,7 @@ public class DialoguePopup : MonoBehaviour
     public Button clickArea;
 
     [Header("Settings")]
-    private float autoAdvanceTime = 2f; // 0 = deactivated
+    private float autoAdvanceTime = 4f; // 0 = deactivated
     private float fadeDuration = 1f;
 
     private int index = 0;
