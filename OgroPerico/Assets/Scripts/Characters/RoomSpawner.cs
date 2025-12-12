@@ -6,17 +6,21 @@ public class RoomSpawner : MonoBehaviour
 {
     public GameObject[] enemyPrefabs;      // Lista de enemigos posibles
     public float spawnInterval = 5f;       // Cada cuánto spawnear
-    public int maxEnemies = 5;             // Número máximo de enemigos activos en la habitación
+    public int maxEnemiesSameTime = 5;             // Número máximo de enemigos activos en la habitación
+
+    public int maxTotalEnemies = -1;
 
     private BoxCollider2D roomArea;
     private Transform player;
 
     private int currentEnemyCount = 0;
+    private int totalSpawnedEnemies = 0;
 
     private void Start()
     {
         roomArea = GetComponent<BoxCollider2D>();
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
+        Debug.Log("total enemies: " + maxTotalEnemies);
         StartCoroutine(SpawnLoop());
     }
 
@@ -34,14 +38,24 @@ public class RoomSpawner : MonoBehaviour
             // Verificar si el jugador está dentro de la habitación
             if (roomArea.OverlapPoint(player.position))
             {
-                if (currentEnemyCount < maxEnemies)
-                    SpawnEnemy();
+                if (currentEnemyCount < maxEnemiesSameTime)
+                {
+                    // No superar límite total (si lo hay)
+                    if (maxTotalEnemies < 0 || totalSpawnedEnemies < maxTotalEnemies)
+                    {
+                        Debug.Log("maxTotalEnemies: " + maxTotalEnemies);
+                        Debug.Log("totalSpawnedEnemies < maxTotalEnemies: " + (totalSpawnedEnemies < maxTotalEnemies));
+                        Debug.Log("Total spawned: " + totalSpawnedEnemies);
+                        SpawnEnemy();
+                    }
+                }
             }
         }
     }
 
     private void SpawnEnemy()
     {
+        Debug.Log("SpawnEnemy");
         if (enemyPrefabs.Length == 0) return;
 
         // Elegir aleatoriamente el tipo de enemigo
@@ -61,6 +75,7 @@ public class RoomSpawner : MonoBehaviour
         EnemyBase enemyBase = enemy.GetComponent<EnemyBase>();
         enemyBase.movementArea = roomArea;
         currentEnemyCount++;
+        totalSpawnedEnemies++;
 
         if (enemyBase != null)
             enemyBase.OnDeath += () => currentEnemyCount--;

@@ -1787,6 +1787,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 90095260855245363, guid: 4ba845a30daea464cb5381ed9d74c948, type: 3}
+      propertyPath: maxTotalEnemies
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2007944639163946800, guid: 4ba845a30daea464cb5381ed9d74c948, type: 3}
       propertyPath: m_Name
       value: SpawnerRoom4
@@ -1847,6 +1851,10 @@ PrefabInstance:
     - target: {fileID: 90095260855245363, guid: 4ba845a30daea464cb5381ed9d74c948, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 90095260855245363, guid: 4ba845a30daea464cb5381ed9d74c948, type: 3}
+      propertyPath: maxTotalEnemies
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2007944639163946800, guid: 4ba845a30daea464cb5381ed9d74c948, type: 3}
       propertyPath: m_Name

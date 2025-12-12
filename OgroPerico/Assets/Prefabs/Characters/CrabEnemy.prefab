@@ -176,12 +176,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11735e01b046f004e88344c4d942a193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  moveSpeed: 5
   chaseRange: 5
   stopDistance: 0.5
   wanderSpeed: 1.5
   wanderInterval: 2
-  maxHealth: 6
+  maxHealth: 2
   blinkTime: 1.5
   player: {fileID: 0}
   movementArea: {fileID: 0}
@@ -190,7 +190,6 @@ MonoBehaviour:
   damageCooldown: 1
   chargeSpeedMultiplier: 3
   knockbackBackForce: 0.3
-  knockbackDuration: 0.5
 --- !u!95 &4792270461815563194
 Animator:
   serializedVersion: 7

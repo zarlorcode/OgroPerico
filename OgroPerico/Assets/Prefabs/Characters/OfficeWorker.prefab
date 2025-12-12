@@ -203,12 +203,12 @@ MonoBehaviour:
   stopDistance: 0.5
   wanderSpeed: 1.5
   wanderInterval: 2
-  maxHealth: 6
+  maxHealth: 8
   blinkTime: 1.5
   player: {fileID: 0}
   movementArea: {fileID: 0}
   knockbackDuration: 0.2
-  damageToPlayer: 2
+  damageToPlayer: 3
   damageCooldown: 1
   chargeSpeedMultiplier: 3
   knockbackBackForce: 0.8
