@@ -11,6 +11,7 @@ public class InteractionManager : MonoBehaviour
 
     [SerializeField] private LayerMask archivadorLayer;
     [SerializeField] private LayerMask puertaLayer;
+    [SerializeField] private LayerMask puzzleHintLayer;
 
     // Este método se conecta al evento OnClick() de tu botón de UI
     public void HandleInteractionButtonPress()
@@ -69,6 +70,21 @@ public class InteractionManager : MonoBehaviour
                 // PRIORIDAD 1: ACTIVAR ARCHIVADOR
                 nearestArchivador.TryActivate();
                 return; 
+            }
+        }
+
+        Collider2D[] hintHits = Physics2D.OverlapCircleAll(player.transform.position, detectionRange, puzzleHintLayer);
+        PuzzleHintScript nearestHint = FindNearestHint(hintHits);
+
+        if (nearestHint != null)
+        {
+            float dist = Vector2.Distance(player.transform.position, nearestHint.transform.position);
+            // Asumiendo un rango de interacción fijo o añadiendo interactionRadius al script
+            if (dist <= nearestHint.interactionRadius + 0.1f) 
+            {
+                // PRIORIDAD: INTERACTUAR CON PISTA
+                nearestHint.TryInteract();
+                return;
             }
         }
         
@@ -132,6 +148,27 @@ public class InteractionManager : MonoBehaviour
         foreach (Collider2D hit in hits)
         {
             Archivador current = hit.GetComponent<Archivador>();
+            if (current != null)
+            {
+                float distance = Vector2.Distance(player.transform.position, hit.transform.position);
+                if (distance < minDistance)
+                {
+                    minDistance = distance;
+                    nearest = current;
+                }
+            }
+        }
+        return nearest;
+    }
+
+    private PuzzleHintScript FindNearestHint(Collider2D[] hits)
+    {
+        PuzzleHintScript nearest = null;
+        float minDistance = float.MaxValue;
+
+        foreach (Collider2D hit in hits)
+        {
+            PuzzleHintScript current = hit.GetComponent<PuzzleHintScript>();
             if (current != null)
             {
                 float distance = Vector2.Distance(player.transform.position, hit.transform.position);
