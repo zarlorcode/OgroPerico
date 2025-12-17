@@ -2210,6 +2210,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5719814510680941747, guid: 4b0d493de3f364d458c38c93db330a07, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5719814510680941747, guid: 4b0d493de3f364d458c38c93db330a07, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4139165624297949839}
+    - target: {fileID: 5719814510680941747, guid: 4b0d493de3f364d458c38c93db330a07, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RestartFirstLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 5719814510680941747, guid: 4b0d493de3f364d458c38c93db330a07, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5719814510680941747, guid: 4b0d493de3f364d458c38c93db330a07, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6205468038529024297, guid: 4b0d493de3f364d458c38c93db330a07, type: 3}
       propertyPath: m_Name
       value: UI
@@ -2233,6 +2253,17 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1180165986}
   m_SourcePrefab: {fileID: 100100000, guid: 4b0d493de3f364d458c38c93db330a07, type: 3}
+--- !u!114 &4139165624297949839 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1601844090599471366, guid: 4b0d493de3f364d458c38c93db330a07, type: 3}
+  m_PrefabInstance: {fileID: 4139165624297949838}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b6e235a5e3755142afbe41df4042f3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &6377328406564331709 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6839216841480291683, guid: 757c135219cd5b546b4d18cda5f11c15, type: 3}
