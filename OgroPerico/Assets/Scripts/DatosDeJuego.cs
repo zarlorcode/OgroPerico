@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 // Clase estática para guardar datos entre escenas
 public static class DatosDeJuego
@@ -11,4 +12,6 @@ public static class DatosDeJuego
     public static int MaxCorazones = 5;       
     public static float VelocidadMovimiento = 5f; 
     public static float MultiplicadorAtaque = 1f;
+
+    public static List<OfficeCollectible.CollectibleType> ConsumiblesRecogidos = new List<OfficeCollectible.CollectibleType>();
 }

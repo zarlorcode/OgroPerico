@@ -61,6 +61,11 @@ public class OfficeCollectible : MonoBehaviour
                 break;
         }
 
+        if (HUDManager.Instance != null)
+        {
+            HUDManager.Instance.RegistrarNuevoConsumible(tipoDeObjeto);
+        }
+
         // Reproducir sonido si existe (usando tu AudioManager o un PlayClipAtPoint simple)
         if (sonidoRecoger != null)
         {
