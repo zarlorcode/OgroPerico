@@ -13,6 +13,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioClip musicaIntroDungeon;
     [SerializeField] private AudioClip musicaJuego;
     [SerializeField] private AudioClip musicaGameOver;
+    [SerializeField] private AudioClip musicaGameWin;
 
     [Header("Efectos")]
     [SerializeField] private AudioClip efectoRecibirDaño;
@@ -78,6 +79,10 @@ public class AudioManager : MonoBehaviour
         ReproducirMusica(musicaGameOver);
     }
 
+    public void reproducirMusicaGameWin()
+    {
+        ReproducirMusica(musicaGameWin);
+    }
     // ==================== EFECTOS ====================
     private void ReproducirEfecto(AudioClip clip)
     {
