@@ -75,7 +75,7 @@ public class Lever : MonoBehaviour
     private void ActivateLever()
     {
         isActivated = true;
-        
+        AudioManager.Instance.reproducirEfectoPalanca();
         // --- CAMBIO CLAVE: Cambiar el Sprite al activo ---
         if (spriteRenderer != null && activatedSprite != null)
         {

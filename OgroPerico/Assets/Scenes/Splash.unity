@@ -502,9 +502,9 @@ MonoBehaviour:
   musicaIntroDungeon: {fileID: 8300000, guid: a11fce47dc8dea049a4b5837c4cebb80, type: 3}
   musicaJuego: {fileID: 8300000, guid: ad9df8489cb69364eba44926054fd733, type: 3}
   musicaGameOver: {fileID: 8300000, guid: a11fce47dc8dea049a4b5837c4cebb80, type: 3}
-  "efectoRecibirDa\xF1o": {fileID: 0}
-  "efectoDa\xF1ar": {fileID: 0}
-  efectoPalanca: {fileID: 0}
+  "efectoRecibirDa\xF1o": {fileID: 8300000, guid: 8ca49bd9915fe4245946f3b22d84c509, type: 3}
+  "efectoDa\xF1ar": {fileID: 8300000, guid: e844dced20ffa414c8dbcec74f1f5f90, type: 3}
+  efectoPalanca: {fileID: 8300000, guid: 9e6c595673741e940b92c79500796c65, type: 3}
   volumen: 0.405
 --- !u!1 &182394883
 GameObject:

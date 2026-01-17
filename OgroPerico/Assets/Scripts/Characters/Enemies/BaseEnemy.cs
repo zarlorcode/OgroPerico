@@ -213,7 +213,7 @@ public abstract class EnemyBase : MonoBehaviour
 
         Vector2 dir = ((Vector2)transform.position - hitSourcePosition).normalized;
         ApplyKnockback(dir);
-
+        AudioManager.Instance.reproducirEfectoDañar();
         currentHealth -= amount;
         if (currentHealth <= 0)
             Die();
