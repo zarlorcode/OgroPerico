@@ -27,7 +27,7 @@ public abstract class EnemyBase : MonoBehaviour
 
     [Header("Referencias")]
     public Transform player;
-    private SpriteRenderer spriteRenderer;
+    public SpriteRenderer spriteRenderer;
 
     // Área donde el enemigo puede moverse
     public BoxCollider2D movementArea;
@@ -50,11 +50,18 @@ public abstract class EnemyBase : MonoBehaviour
 
     public event Action OnDeath;
 
+    [Header("HabdleState")]
+    protected virtual bool UseDefaultAI => true;
+
+
     protected virtual void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        if (spriteRenderer == null)
+        {
+            spriteRenderer = GetComponent<SpriteRenderer>();
+        }
 
         currentHealth = maxHealth;
 
@@ -73,7 +80,11 @@ public abstract class EnemyBase : MonoBehaviour
     {
         if (isDead || player == null) return;
 
-        HandleState();
+        if (UseDefaultAI)
+        {
+            HandleState();
+        }
+
         HandleSpriteFlip();
     }
 

@@ -35,7 +35,6 @@ public class GhostEnemy : EnemyBase
                 Vector2 knockbackDir = ((Vector2)transform.position - (Vector2)player.position).normalized;
                 ApplyKnockback(knockbackDir, knockbackBackForce, knockbackDuration);
 
-                // Daño al jugador después de un pequeño retraso
                 StartCoroutine(DelayedChargeAttack(knockbackDuration, knockbackDir));
 
                 lastDamageTime = Time.time;
@@ -45,8 +44,6 @@ public class GhostEnemy : EnemyBase
 
     private IEnumerator DelayedChargeAttack(float delay, Vector2 knockbackDir)
     {
-        //yield return new WaitForSeconds(delay);
-
         // Daño al jugador
         playerHealth.TakeDamage(damageToPlayer, transform.position);
 

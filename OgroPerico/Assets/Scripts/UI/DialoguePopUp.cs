@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class DialoguePopup : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class DialoguePopup : MonoBehaviour
     public TextMeshProUGUI dialogueText;
     public TextMeshProUGUI characterName;
     private CanvasGroup canvasGroup;
+
+    private string nextScene = null;
 
     // transparent button inside panel
     public Button clickArea;
@@ -39,6 +42,12 @@ public class DialoguePopup : MonoBehaviour
 
     public void ShowDialogue(DialogueLine[] newSentences)
     {
+        ShowDialogue(newSentences, null);
+    }
+
+        public void ShowDialogue(DialogueLine[] newSentences, string scene)
+    {
+        nextScene = scene;
         Debug.Log("ShowDialogue");
         dialogueLines = newSentences;
         index = 0;
@@ -115,6 +124,11 @@ public class DialoguePopup : MonoBehaviour
             yield return null;
         }
         gameObject.SetActive(false);
+
+        if (nextScene != null)
+        {
+            SceneManager.LoadScene(nextScene);
+        }
     }
 
     IEnumerator AutoAdvance()

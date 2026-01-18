@@ -50,7 +50,10 @@ public class PlayerHealth : MonoBehaviour
 
         health -= amount;
         health = Mathf.Max(0, health);
-        AudioManager.Instance.reproducirEfectoRecibirDaño();
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.reproducirEfectoRecibirDaño();
+        }
         DatosDeJuego.VidaJugador = health;
         OnHealthChanged?.Invoke();
 
