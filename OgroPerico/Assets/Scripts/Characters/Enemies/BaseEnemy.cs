@@ -29,7 +29,7 @@ public abstract class EnemyBase : MonoBehaviour
     public Transform player;
     public SpriteRenderer spriteRenderer;
 
-    // Área donde el enemigo puede moverse
+    // ï¿½rea donde el enemigo puede moverse
     public BoxCollider2D movementArea;
 
     protected Rigidbody2D rb;
@@ -68,7 +68,7 @@ public abstract class EnemyBase : MonoBehaviour
         if (player == null)
             player = GameObject.FindGameObjectWithTag("Player")?.transform;
 
-        // Si el spawner asigna el área, perfecto.
+        // Si el spawner asigna el ï¿½rea, perfecto.
         // Si no, intenta tomarla del padre.
         if (movementArea == null)
             movementArea = GetComponentInParent<BoxCollider2D>();
@@ -88,6 +88,7 @@ public abstract class EnemyBase : MonoBehaviour
         HandleSpriteFlip();
     }
 
+    /*
     protected virtual void FixedUpdate()
     {
         HandleKnockback();
@@ -102,6 +103,27 @@ public abstract class EnemyBase : MonoBehaviour
             MoveInsideArea(movement.normalized * currentSpeed);
         }
     }
+    */
+
+    protected virtual void FixedUpdate()
+    {
+        HandleKnockback();
+
+        if (!isDead && !stunned)
+        {
+            float currentSpeed =
+                (currentState == EnemyState.Wandering) ? wanderSpeed :
+                (currentState == EnemyState.Attacking) ? 0f :
+                moveSpeed;
+
+            rb.linearVelocity = movement.normalized * currentSpeed;
+        }
+        else
+        {
+            rb.linearVelocity = Vector2.zero;
+        }
+    }
+
 
     // ===================== ESTADOS =====================
     protected virtual void HandleState()
@@ -125,7 +147,7 @@ public abstract class EnemyBase : MonoBehaviour
         }
     }
 
-    // ===================== WANDER DENTRO DEL ÁREA =====================
+    // ===================== WANDER DENTRO DEL ï¿½REA =====================
     protected void HandleWandering()
     {
         if (Time.time >= nextWanderTime)
@@ -156,7 +178,7 @@ public abstract class EnemyBase : MonoBehaviour
         wanderTarget = new Vector2(x, y);
     }
 
-    // ===================== MOVIMIENTO LIMITADO AL ÁREA =====================
+    // ===================== MOVIMIENTO LIMITADO AL ï¿½REA =====================
     protected void MoveInsideArea(Vector2 velocity)
     {
         Vector2 newPos = rb.position + velocity * Time.fixedDeltaTime;
@@ -169,7 +191,8 @@ public abstract class EnemyBase : MonoBehaviour
             newPos.y = Mathf.Clamp(newPos.y, b.min.y + 0.3f, b.max.y - 0.3f);
         }
 
-        rb.MovePosition(newPos);
+        //rb.MovePosition(newPos);
+        rb.linearVelocity = velocity; 
     }
 
     // ===================== FLIP =====================
@@ -224,7 +247,7 @@ public abstract class EnemyBase : MonoBehaviour
 
         Vector2 dir = ((Vector2)transform.position - hitSourcePosition).normalized;
         ApplyKnockback(dir);
-        AudioManager.Instance.reproducirEfectoDañar();
+        AudioManager.Instance.reproducirEfectoDaÃ±ar();
         currentHealth -= amount;
         if (currentHealth <= 0)
             Die();
