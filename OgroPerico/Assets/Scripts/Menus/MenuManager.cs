@@ -77,5 +77,6 @@ public class MenuManager : MonoBehaviour
         DatosDeJuego.MaxCorazones = 5;
         DatosDeJuego.VelocidadMovimiento = 5f;
         DatosDeJuego.MultiplicadorAtaque = 1f;
+        DatosDeJuego.ConsumiblesRecogidos.Clear();
     }
 }

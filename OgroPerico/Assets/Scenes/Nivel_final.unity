@@ -66075,6 +66075,10 @@ PrefabInstance:
       value: OgroPericoBoss
       objectReference: {fileID: 0}
     - target: {fileID: 5691727869752052838, guid: 27e418fd69b86b2418b4442589faa400, type: 3}
+      propertyPath: jumpSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5691727869752052838, guid: 27e418fd69b86b2418b4442589faa400, type: 3}
       propertyPath: dialoguePopup
       value: 
       objectReference: {fileID: 1901332921}

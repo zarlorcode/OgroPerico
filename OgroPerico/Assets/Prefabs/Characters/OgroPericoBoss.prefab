@@ -128,9 +128,10 @@ MonoBehaviour:
   jumpForce: 12
   jumpDamageRadius: 2.5
   jumpDamage: 3
-  jumpSpeed: 5
+  jumpSpeed: 8
   punchRange: 3
   punchDamage: 2
+  dialoguePopup: {fileID: 0}
 --- !u!114 &7598520334961579610
 MonoBehaviour:
   m_ObjectHideFlags: 0
